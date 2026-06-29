@@ -1,0 +1,52 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ========== events コレクション ==========
+    // 歴史イベント：全員読み取り可能（テスト段階）
+    match /events/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+                      request.auth.token.admin == true;
+    }
+
+    // ========== persons コレクション ==========
+    // 300人の歴史人物：全員読み取り可能（購入不要）
+    match /persons/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+                      request.auth.token.admin == true;
+    }
+
+    // ========== causalChains コレクション ==========
+    // 因果ドミノ：無料または購入済みユーザーが読み取り可能
+    match /causalChains/{document=**} {
+      allow read: if !resource.data.isPremium ||
+                     hasPurchased();
+      allow write: if request.auth != null &&
+                      request.auth.token.admin == true;
+    }
+
+    // ========== userProgress コレクション ==========
+    // ユーザー進捗：本人専用アクセス制御
+    match /userProgress/{userId} {
+      allow read, write: if request.auth != null &&
+                            request.auth.uid == userId;
+    }
+
+    // ========== causalChains 内の details サブコレクション ==========
+    match /causalChains/{chainId}/details/{document=**} {
+      allow read: if !get(/databases/(default)/documents/causalChains/{chainId}).data.isPremium ||
+                     hasPurchased();
+      allow write: if request.auth != null &&
+                      request.auth.token.admin == true;
+    }
+
+    // ========== ヘルパー関数 ==========
+    // ユーザーが購入済みかチェック
+    function hasPurchased() {
+      return request.auth != null &&
+             request.auth.token.firebase.sign_in_provider != 'anonymous';
+    }
+  }
+}

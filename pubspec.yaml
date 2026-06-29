@@ -1,0 +1,58 @@
+name: history_zukan
+description: "たくさん知りたくなる歴史事例・図鑑 - Flutter education app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.0
+  cloud_firestore: ^4.13.0
+  firebase_auth: ^4.13.0
+  cloud_functions: ^4.5.0
+
+  # State Management
+  riverpod: ^2.4.0
+  hooks_riverpod: ^2.4.0
+
+  # Local Storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Navigation
+  go_router: ^12.0.0
+
+  # Localization
+  intl: ^0.20.0
+
+  # Serialization
+  json_annotation: ^4.8.0
+
+  # TTS (C3: Bedtime mode)
+  flutter_tts: ^4.0.0
+
+  # Utils
+  equatable: ^2.0.5
+  uuid: ^4.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+  hive_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
