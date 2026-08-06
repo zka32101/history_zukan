@@ -1,0 +1,342 @@
+{
+  "person_jp_ancient": {
+    "category": "person_placeholders",
+    "targetWidth": 400,
+    "targetHeight": 300,
+    "file": "person_jp_ancient.png",
+    "prompt": "A cute chibi-style illustration of a historical Japanese figure from Heian to Edo period, wearing simplified kimono, hakama, or formal court dress, designed for elementary school children. 2-3 head-tall proportions, big round friendly eyes, warm smile. Bright, warm color palette, thick clean outlines, flat cel-shaded coloring. Kid-friendly, approachable, storybook illustration style — NOT photorealistic, NOT scary. High quality, 400x300px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:40:34.568Z"
+  },
+  "person_jp_modern": {
+    "category": "person_placeholders",
+    "targetWidth": 400,
+    "targetHeight": 300,
+    "file": "person_jp_modern.png",
+    "prompt": "A cute chibi-style illustration of a Meiji-Showa era Japanese intellectual or leader, wearing a simplified Western suit or hakama, designed for elementary school children. 2-3 head-tall proportions, big round friendly eyes, warm smile. Bright, warm color palette, thick clean outlines, flat cel-shaded coloring. Kid-friendly, approachable, storybook illustration style — NOT photorealistic, NOT scary. High quality, 400x300px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:40:42.482Z"
+  },
+  "person_jp_contemporary": {
+    "category": "person_placeholders",
+    "targetWidth": 400,
+    "targetHeight": 300,
+    "file": "person_jp_contemporary.png",
+    "prompt": "A cute chibi-style illustration of a modern Japanese artist, scientist, or business leader, wearing simplified contemporary clothing, designed for elementary school children. 2-3 head-tall proportions, big round friendly eyes, warm smile. Bright, warm color palette, thick clean outlines, flat cel-shaded coloring. Kid-friendly, approachable, storybook illustration style — NOT photorealistic, NOT scary. High quality, 400x300px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:07.511Z"
+  },
+  "person_world_ancient": {
+    "category": "person_placeholders",
+    "targetWidth": 400,
+    "targetHeight": 300,
+    "file": "person_world_ancient.png",
+    "prompt": "A cute chibi-style illustration of an ancient or medieval Western historical figure, wearing simplified Greek, Roman, or European medieval clothing, designed for elementary school children. 2-3 head-tall proportions, big round friendly eyes, warm smile. Bright, warm color palette, thick clean outlines, flat cel-shaded coloring. Kid-friendly, approachable, storybook illustration style — NOT photorealistic, NOT scary. High quality, 400x300px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:16.268Z"
+  },
+  "person_world_renaissance": {
+    "category": "person_placeholders",
+    "targetWidth": 400,
+    "targetHeight": 300,
+    "file": "person_world_renaissance.png",
+    "prompt": "A cute chibi-style illustration of a Renaissance to modern Western historical figure, wearing simplified formal clothing from their era, designed for elementary school children. 2-3 head-tall proportions, big round friendly eyes, warm smile. Bright, warm color palette, thick clean outlines, flat cel-shaded coloring. Kid-friendly, approachable, storybook illustration style — NOT photorealistic, NOT scary. High quality, 400x300px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:24.075Z"
+  },
+  "person_world_other": {
+    "category": "person_placeholders",
+    "targetWidth": 400,
+    "targetHeight": 300,
+    "file": "person_world_other.png",
+    "prompt": "A cute chibi-style illustration of a historical figure from Africa, Middle East, or Asia, wearing traditional clothing appropriate to their region, simplified but respectful, designed for elementary school children. 2-3 head-tall proportions, big round friendly eyes, warm smile. Bright, warm color palette, thick clean outlines, flat cel-shaded coloring. Kid-friendly, approachable, storybook illustration style — NOT photorealistic, NOT scary. High quality, 400x300px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:31.988Z"
+  },
+  "mascot_standing": {
+    "category": "mascot",
+    "targetWidth": 500,
+    "targetHeight": 500,
+    "file": "mascot_standing.png",
+    "prompt": "A friendly, adorable mascot character for a history learning app for elementary school kids. Appearance: A round, huggable book-shaped character with big sparkling eyes, chubby short arms and legs, rosy cheeks, and a warm smile. The book cover has a small crown or ribbon accent, and it carries a tiny magnifying glass and hourglass charm. Color: soft purple and gold, bright and welcoming, pastel highlights. Style: kawaii chibi mascot, thick clean outlines, flat cel-shaded coloring, sticker-style. Pose: standing confidently, one hand waving hello. Suitable for stickers, UI elements, loading screens. High quality, transparent background PNG, 500x500px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:39.982Z"
+  },
+  "mascot_pointing": {
+    "category": "mascot",
+    "targetWidth": 500,
+    "targetHeight": 500,
+    "file": "mascot_pointing.png",
+    "prompt": "A friendly, adorable mascot character for a history learning app for elementary school kids. Appearance: A round, huggable book-shaped character with big sparkling eyes, chubby short arms and legs, rosy cheeks, and a warm smile. The book cover has a small crown or ribbon accent, and it carries a tiny magnifying glass and hourglass charm. Color: soft purple and gold, bright and welcoming, pastel highlights. Style: kawaii chibi mascot, thick clean outlines, flat cel-shaded coloring, sticker-style. Pose: pointing forward excitedly with sparkles around, as if guiding the way. Suitable for stickers, UI elements, loading screens. High quality, transparent background PNG, 500x500px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:48.001Z"
+  },
+  "mascot_thinking": {
+    "category": "mascot",
+    "targetWidth": 500,
+    "targetHeight": 500,
+    "file": "mascot_thinking.png",
+    "prompt": "A friendly, adorable mascot character for a history learning app for elementary school kids. Appearance: A round, huggable book-shaped character with big sparkling eyes, chubby short arms and legs, rosy cheeks, and a warm smile. The book cover has a small crown or ribbon accent, and it carries a tiny magnifying glass and hourglass charm. Color: soft purple and gold, bright and welcoming, pastel highlights. Style: kawaii chibi mascot, thick clean outlines, flat cel-shaded coloring, sticker-style. Pose: tilting head with one finger on chin, thought bubble with a small lightbulb. Suitable for stickers, UI elements, loading screens. High quality, transparent background PNG, 500x500px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:43:56.243Z"
+  },
+  "mascot_celebrating": {
+    "category": "mascot",
+    "targetWidth": 500,
+    "targetHeight": 500,
+    "file": "mascot_celebrating.png",
+    "prompt": "A friendly, adorable mascot character for a history learning app for elementary school kids. Appearance: A round, huggable book-shaped character with big sparkling eyes, chubby short arms and legs, rosy cheeks, and a warm smile. The book cover has a small crown or ribbon accent, and it carries a tiny magnifying glass and hourglass charm. Color: soft purple and gold, bright and welcoming, pastel highlights. Style: kawaii chibi mascot, thick clean outlines, flat cel-shaded coloring, sticker-style. Pose: jumping with both arms up, confetti and stars around, big joyful smile. Suitable for stickers, UI elements, loading screens. High quality, transparent background PNG, 500x500px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:44:04.056Z"
+  },
+  "gacha_frame_n": {
+    "category": "gacha_frames",
+    "targetWidth": 512,
+    "targetHeight": 512,
+    "file": "gacha_frame_n.png",
+    "prompt": "A cute, rounded card frame border for a collectible history card game for kids. Rarity: Common (N). Color: soft blue-gray pastel, simple friendly rounded border with tiny star accent. Style: thick rounded outline, minimal but cheerful, flat cel-shaded coloring. Square format, transparent center for character portrait, PNG with alpha channel. 512x512px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:44:12.059Z"
+  },
+  "gacha_frame_r": {
+    "category": "gacha_frames",
+    "targetWidth": 512,
+    "targetHeight": 512,
+    "file": "gacha_frame_r.png",
+    "prompt": "A cute, rounded decorative border/frame graphic only, for a collectible history card game for kids. Rarity: Rare (R). Color: warm bronze/copper tones, playful sticker-style border with small star accents. Style: thick rounded outline, friendly ornamentation, small corner sparkles. The frame surrounds an EMPTY plain flat pastel-colored square in the very center — the center area must stay completely empty with NO face, NO character, NO portrait, NO illustration inside it, just decorative border artwork around a blank square. Square format, 512x512px, PNG.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:04.455Z"
+  },
+  "gacha_frame_sr": {
+    "category": "gacha_frames",
+    "targetWidth": 512,
+    "targetHeight": 512,
+    "file": "gacha_frame_sr.png",
+    "prompt": "A cute, rounded decorative border/frame graphic only, for a collectible history card game for kids. Rarity: Super Rare (SR). Color: bright silver with soft glowing edge, playful star and ribbon pattern. Style: thick rounded outline, cheerful sparkle rays in background corners. The frame surrounds an EMPTY plain flat pastel-colored square in the very center — the center area must stay completely empty with NO face, NO character, NO portrait, NO illustration inside it, just decorative border artwork around a blank square. Square format, 512x512px, PNG.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:16.749Z"
+  },
+  "gacha_frame_ssr": {
+    "category": "gacha_frames",
+    "targetWidth": 512,
+    "targetHeight": 512,
+    "file": "gacha_frame_ssr.png",
+    "prompt": "A cute, rounded decorative border/frame graphic only, for a collectible history card game for kids. Rarity: Special Super Rare (SSR). Color: radiant gold and rainbow-tinted sparkle, festive star and confetti accents. Style: thick rounded outline, exciting eye-catching sparkle/glitter effect around border, similar to a birthday party celebration frame. The frame surrounds an EMPTY plain flat pastel-colored square in the very center — the center area must stay completely empty with NO face, NO character, NO portrait, NO illustration inside it, just decorative border artwork around a blank square. Square format, 512x512px, PNG.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:25.094Z"
+  },
+  "era_jomon": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_jomon.png",
+    "prompt": "A cute, chibi-style rounded icon of a Jomon-era clay pot (dogu figure) with a friendly face, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:44:44.210Z"
+  },
+  "era_yayoi": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_yayoi.png",
+    "prompt": "A cute, chibi-style rounded icon of a Yayoi-era rice paddy with a small raised-floor storehouse, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:44:54.287Z"
+  },
+  "era_kofun": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_kofun.png",
+    "prompt": "A cute, chibi-style rounded icon of a keyhole-shaped kofun burial mound, simplified and friendly, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:02.155Z"
+  },
+  "era_asuka": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_asuka.png",
+    "prompt": "A cute, chibi-style rounded icon of a small five-story pagoda (Horyuji style), warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:10.134Z"
+  },
+  "era_nara": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_nara.png",
+    "prompt": "A cute, chibi-style rounded icon of the Great Buddha Hall (Todaiji), simplified and adorable, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:18.172Z"
+  },
+  "era_heian": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_heian.png",
+    "prompt": "A cute, chibi-style rounded icon of a Heian-era court noble's ox-drawn carriage, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:26.108Z"
+  },
+  "era_kamakura": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_kamakura.png",
+    "prompt": "A cute, chibi-style rounded icon of a friendly samurai helmet (kabuto) beside a small temple gate, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:33.988Z"
+  },
+  "era_muromachi": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_muromachi.png",
+    "prompt": "A cute, chibi-style rounded icon of Kinkaku-ji (Golden Pavilion), simplified and shiny, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:41.920Z"
+  },
+  "era_azuchi": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_azuchi.png",
+    "prompt": "A cute, chibi-style rounded icon of a small Japanese castle tower (Azuchi-Momoyama style), warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:52.021Z"
+  },
+  "era_edo": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_edo.png",
+    "prompt": "A cute, chibi-style rounded icon of a small torii gate with cherry blossoms, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:45:59.959Z"
+  },
+  "era_meiji": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_meiji.png",
+    "prompt": "A cute, chibi-style rounded icon of a small Meiji-era Western-style brick building with a mini steam train, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:46:07.897Z"
+  },
+  "era_taisho": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_taisho.png",
+    "prompt": "A cute, chibi-style rounded icon of a Taisho-era Western lamp post beside a small modern building facade, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:46:16.180Z"
+  },
+  "era_showa": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_showa.png",
+    "prompt": "A cute, chibi-style rounded icon of a friendly Tokyo Tower character, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:46:26.449Z"
+  },
+  "era_heisei": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_heisei.png",
+    "prompt": "A cute, chibi-style rounded icon of a small modern Japanese skyscraper skyline, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:46:34.221Z"
+  },
+  "era_reiwa": {
+    "category": "era_icons",
+    "targetWidth": 200,
+    "targetHeight": 200,
+    "file": "era_reiwa.png",
+    "prompt": "A cute, chibi-style rounded icon of a small futuristic torii gate with soft sparkling light rays, warm orange gradient, thick outline flat icon style, transparent background, 200x200px.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:46:42.220Z"
+  },
+  "diagnosis_bg_sengoku": {
+    "category": "diagnosis_backgrounds",
+    "targetWidth": 1080,
+    "targetHeight": 600,
+    "file": "diagnosis_bg_sengoku.png",
+    "prompt": "A cute, friendly illustration background about Sengoku-era warlords and samurai spirit, for a kids' personality quiz app. Elements: chibi-style samurai armor and helmet, small cheerful war banners, a cute castle silhouette. Color: bright purple to indigo gradient with pastel highlights. Style: playful, storybook illustration, thick outlines, NOT scary or dramatic. IMPORTANT: pure illustration only, absolutely no text, no words, no letters, no title, no captions anywhere in the image. 1080x600px, suitable as a card header background.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:34.475Z"
+  },
+  "diagnosis_bg_philosopher": {
+    "category": "diagnosis_backgrounds",
+    "targetWidth": 1080,
+    "targetHeight": 600,
+    "file": "diagnosis_bg_philosopher.png",
+    "prompt": "A cute, friendly illustration background about philosophers and deep thinkers, for a kids' personality quiz app. Elements: small stack of books, a cute quill pen, a playful empty thought bubble, mini columns. Color: bright purple to indigo gradient with pastel highlights. Style: playful, storybook illustration, thick outlines, NOT scary or dramatic. IMPORTANT: pure illustration only, absolutely no text, no words, no letters, no title, no captions anywhere in the image. 1080x600px, suitable as a card header background.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:42.435Z"
+  },
+  "diagnosis_bg_leader": {
+    "category": "diagnosis_backgrounds",
+    "targetWidth": 1080,
+    "targetHeight": 600,
+    "file": "diagnosis_bg_leader.png",
+    "prompt": "A cute, friendly illustration background about world leaders and global history, for a kids' personality quiz app. Elements: a cheerful cartoon world map, small flags, a mini podium, colorful landmark silhouettes. Color: bright purple to indigo gradient with pastel highlights. Style: playful, storybook illustration, thick outlines, NOT scary or dramatic. IMPORTANT: pure illustration only, absolutely no text, no words, no letters, no title, no captions anywhere in the image. 1080x600px, suitable as a card header background.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:50.389Z"
+  },
+  "diagnosis_bg_artist": {
+    "category": "diagnosis_backgrounds",
+    "targetWidth": 1080,
+    "targetHeight": 600,
+    "file": "diagnosis_bg_artist.png",
+    "prompt": "A cute, friendly illustration background about artists and creativity, for a kids' personality quiz app. Elements: playful paintbrush strokes, a small palette, a cute sculpture shape, floating musical notes. Color: bright purple to indigo gradient with pastel highlights. Style: playful, storybook illustration, thick outlines, NOT scary or dramatic. IMPORTANT: pure illustration only, absolutely no text, no words, no letters, no title, no captions anywhere in the image. 1080x600px, suitable as a card header background.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:53:58.596Z"
+  },
+  "diagnosis_bg_inventor": {
+    "category": "diagnosis_backgrounds",
+    "targetWidth": 1080,
+    "targetHeight": 600,
+    "file": "diagnosis_bg_inventor.png",
+    "prompt": "A cute, friendly illustration background about inventors and scientists, for a kids' personality quiz app. Elements: small friendly gears, a glowing cute lightbulb character, simple blueprint doodles, a mini telescope. Color: bright purple to indigo gradient with pastel highlights. Style: playful, storybook illustration, thick outlines, NOT scary or dramatic. IMPORTANT: pure illustration only, absolutely no text, no words, no letters, no title, no captions anywhere in the image. 1080x600px, suitable as a card header background.",
+    "provider": "leonardo",
+    "modelId": "de7d3faf-762f-48e0-b3b7-9d0ac3a3fcf3",
+    "generatedAt": "2026-08-01T09:54:06.783Z"
+  }
+}

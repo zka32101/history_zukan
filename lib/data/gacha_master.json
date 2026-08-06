@@ -1,0 +1,2102 @@
+[
+  {
+    "personId": "person_j001",
+    "name": "聖徳太子",
+    "country": "日本（飛鳥時代）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j002",
+    "name": "源頼朝",
+    "country": "日本（鎌倉時代）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j003",
+    "name": "織田信長",
+    "country": "日本（戦国時代）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j004",
+    "name": "豊臣秀吉",
+    "country": "日本（安土桃山時代）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j005",
+    "name": "徳川家康",
+    "country": "日本（江戸時代）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j006",
+    "name": "卑弥呼",
+    "country": "日本（邪馬台国）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j007",
+    "name": "坂本龍馬",
+    "country": "日本（幕末）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j008",
+    "name": "紫式部",
+    "country": "日本（平安時代）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_w001",
+    "name": "マハトマ・ガンジー",
+    "country": "インド",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_w002",
+    "name": "エイブラハム・リンカーン",
+    "country": "アメリカ合衆国",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j009",
+    "name": "源義経",
+    "country": "日本（平安時代末期）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_w003",
+    "name": "レオナルド・ダ・ヴィンチ",
+    "country": "イタリア",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j010",
+    "name": "西郷隆盛",
+    "country": "日本（幕末〜明治）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_j011",
+    "name": "北里柴三郎",
+    "country": "日本（明治〜大正）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_w004",
+    "name": "クレオパトラ7世",
+    "country": "エジプト（プトレマイオス朝）",
+    "rarity": 4,
+    "weight": 5
+  },
+  {
+    "personId": "person_w005",
+    "name": "ナポレオン・ボナパルト",
+    "country": "フランス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j012",
+    "name": "勝海舟",
+    "country": "日本（幕末〜明治）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j013",
+    "name": "平塚らいてう",
+    "country": "日本（大正〜昭和）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w006",
+    "name": "マルコ・ポーロ",
+    "country": "イタリア（ベネチア）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w007",
+    "name": "ウィンストン・チャーチル",
+    "country": "イギリス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j014",
+    "name": "大久保利通",
+    "country": "日本（明治）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j015",
+    "name": "伊藤博文",
+    "country": "日本（明治）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j016",
+    "name": "板垣退助",
+    "country": "日本（明治）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w008",
+    "name": "ガリレオ・ガリレイ",
+    "country": "イタリア",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w009",
+    "name": "ムハンマド",
+    "country": "アラビア半島",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w010",
+    "name": "マルティン・ルター",
+    "country": "ドイツ（神聖ローマ帝国）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w011",
+    "name": "ジョン・F・ケネディ",
+    "country": "アメリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j017",
+    "name": "平清盛",
+    "country": "日本（平安時代末期）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j018",
+    "name": "吉田松陰",
+    "country": "日本（幕末）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j019",
+    "name": "渋沢栄一",
+    "country": "日本（明治〜大正）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w012",
+    "name": "アレクサンドロス大王",
+    "country": "マケドニア（古代ギリシャ）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w013",
+    "name": "ジャンヌ・ダルク",
+    "country": "フランス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w014",
+    "name": "アルベルト・アインシュタイン",
+    "country": "ドイツ→アメリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w015",
+    "name": "マリー・キュリー",
+    "country": "ポーランド→フランス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w016",
+    "name": "マーティン・ルーサー・キング",
+    "country": "アメリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j020",
+    "name": "明智光秀",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j021",
+    "name": "北条政子",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j022",
+    "name": "原敬",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w017",
+    "name": "ゴータマ・シッダルタ（お釈迦様）",
+    "country": "インド（ネパール）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w018",
+    "name": "秦の始皇帝",
+    "country": "中国（秦）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w019",
+    "name": "諸葛亮孔明",
+    "country": "中国（三国時代）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w020",
+    "name": "マンサ・ムーサ",
+    "country": "マリ帝国（現マリ共和国）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w021",
+    "name": "フローレンス・ナイチンゲール",
+    "country": "イギリス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j023",
+    "name": "天武天皇（大海人皇子）",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j024",
+    "name": "北条泰時",
+    "country": "日本（鎌倉）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j025",
+    "name": "足利尊氏",
+    "country": "日本（鎌倉〜室町）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j026",
+    "name": "上杉謙信",
+    "country": "日本（越後・現新潟県）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j027",
+    "name": "武田信玄",
+    "country": "日本（甲斐・現山梨県）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j028",
+    "name": "田中正造",
+    "country": "日本（栃木県）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w024",
+    "name": "カール大帝（シャルルマーニュ）",
+    "country": "フランク王国（現フランス・ドイツ）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w025",
+    "name": "ホー・チ・ミン",
+    "country": "ベトナム",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w022",
+    "name": "ジャワハルラール・ネルー",
+    "country": "インド",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w023",
+    "name": "毛沢東",
+    "country": "中国",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w048",
+    "name": "ヴォルフガング・アマデウス・モーツァルト",
+    "country": "オーストリア",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w049",
+    "name": "ジュリアス・シーザー",
+    "country": "ローマ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w026",
+    "name": "クリストファー・コロンブス",
+    "country": "イタリア（ジェノヴァ）",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w027",
+    "name": "ウィリアム・シェイクスピア",
+    "country": "イギリス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w028",
+    "name": "チャールズ・ダーウィン",
+    "country": "イギリス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w029",
+    "name": "ルートヴィヒ・ヴァン・ベートーヴェン",
+    "country": "ドイツ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w030",
+    "name": "ニコラウス・コペルニクス",
+    "country": "ポーランド",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w031",
+    "name": "ジョージ・ワシントン",
+    "country": "アメリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w032",
+    "name": "ネルソン・マンデラ",
+    "country": "南アフリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w033",
+    "name": "フランクリン・ルーズベルト",
+    "country": "アメリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w034",
+    "name": "トーマス・エジソン",
+    "country": "アメリカ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w035",
+    "name": "ヨハネス・グーテンベルク",
+    "country": "ドイツ",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w036",
+    "name": "孔子",
+    "country": "中国",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w037",
+    "name": "アイザック・ニュートン",
+    "country": "イギリス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w038",
+    "name": "ヴォルテール",
+    "country": "フランス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w039",
+    "name": "チンギス・カン",
+    "country": "モンゴル",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_w040",
+    "name": "エリザベス1世",
+    "country": "イギリス",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j029",
+    "name": "聖武天皇",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j030",
+    "name": "葛飾北斎",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j031",
+    "name": "千利休",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j032",
+    "name": "松尾芭蕉",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j033",
+    "name": "空海（弘法大師）",
+    "country": "日本",
+    "rarity": 3,
+    "weight": 20
+  },
+  {
+    "personId": "person_j034",
+    "name": "樋口一葉",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j035",
+    "name": "杉田玄白",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j036",
+    "name": "宮沢賢治",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j037",
+    "name": "山上憶良",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j038",
+    "name": "与謝野晶子",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j039",
+    "name": "手塚治虫",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j040",
+    "name": "田中耕一",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j041",
+    "name": "伊能忠敬",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j042",
+    "name": "福沢諭吉",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j043",
+    "name": "夏目漱石",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j044",
+    "name": "湯川秀樹",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j045",
+    "name": "緒方洪庵",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j046",
+    "name": "徳川慶喜",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j047",
+    "name": "野口英世",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j048",
+    "name": "津田梅子",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j049",
+    "name": "黒澤明",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j050",
+    "name": "杉原千畝",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j051",
+    "name": "大岡忠相",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j052",
+    "name": "本居宣長",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j053",
+    "name": "川端康成",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w041",
+    "name": "カール・マルクス",
+    "country": "ドイツ",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w042",
+    "name": "アドルフ・ヒトラー",
+    "country": "ドイツ（オーストリア生まれ）",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w043",
+    "name": "テレサ修道女（マザー・テレサ）",
+    "country": "マケドニア（アルバニア系）",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w044",
+    "name": "ジークムント・フロイト",
+    "country": "オーストリア",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w045",
+    "name": "イサベル1世（カスティーリャ女王）",
+    "country": "スペイン",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w046",
+    "name": "ソクラテス",
+    "country": "ギリシャ（アテネ）",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_w047",
+    "name": "アントニー・ファン・レーウェンフック",
+    "country": "オランダ",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j055",
+    "name": "藤原道長",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j056",
+    "name": "菅原道真",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j057",
+    "name": "清少納言",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j058",
+    "name": "一休宗純",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j059",
+    "name": "雪舟",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j060",
+    "name": "伊達政宗",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j061",
+    "name": "真田幸村（信繁）",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j062",
+    "name": "前田利家",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j063",
+    "name": "石田三成",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j064",
+    "name": "毛利元就",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j065",
+    "name": "楠木正成",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j066",
+    "name": "足利義満",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j067",
+    "name": "後醍醐天皇",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j068",
+    "name": "白河法皇",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j069",
+    "name": "最澄",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j070",
+    "name": "行基",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j071",
+    "name": "桓武天皇",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j072",
+    "name": "藤原良房",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j073",
+    "name": "在原業平",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j074",
+    "name": "藤原定家",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j075",
+    "name": "西行",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j076",
+    "name": "鴨長明",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j077",
+    "name": "吉田兼好",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j078",
+    "name": "北条時宗",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j079",
+    "name": "太田道灌",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j080",
+    "name": "今川義元",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j081",
+    "name": "柴田勝家",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j082",
+    "name": "黒田官兵衛（如水）",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j083",
+    "name": "加藤清正",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j084",
+    "name": "島津義弘",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j085",
+    "name": "長宗我部元親",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j086",
+    "name": "徳川秀忠",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j087",
+    "name": "徳川家光",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j088",
+    "name": "徳川吉宗",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j089",
+    "name": "田沼意次",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j090",
+    "name": "松平定信",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j091",
+    "name": "水野忠邦",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j092",
+    "name": "岩崎弥太郎",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j093",
+    "name": "新渡戸稲造",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j094",
+    "name": "内村鑑三",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j054",
+    "name": "推古天皇",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j095",
+    "name": "森鴎外",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j096",
+    "name": "正岡子規",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j097",
+    "name": "石川啄木",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j098",
+    "name": "高村光太郎",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j099",
+    "name": "柳宗悦",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j100",
+    "name": "長谷川町子",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j101",
+    "name": "宮崎駿",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j102",
+    "name": "松下幸之助",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j103",
+    "name": "本田宗一郎",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j104",
+    "name": "盛田昭夫",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j105",
+    "name": "稲盛和夫",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j106",
+    "name": "吉田茂",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j107",
+    "name": "池田勇人",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j108",
+    "name": "田中角栄",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j109",
+    "name": "山本五十六",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j110",
+    "name": "東郷平八郎",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j111",
+    "name": "乃木希典",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j112",
+    "name": "大山巌",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j113",
+    "name": "岩倉具視",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j114",
+    "name": "木戸孝允",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j115",
+    "name": "山縣有朋",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j116",
+    "name": "鑑真",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j117",
+    "name": "道元",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j118",
+    "name": "日蓮",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j119",
+    "name": "親鸞",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j120",
+    "name": "法然",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j121",
+    "name": "歌川広重",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j122",
+    "name": "喜多川歌麿",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j123",
+    "name": "近松門左衛門",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j124",
+    "name": "小林一茶",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j125",
+    "name": "岡倉天心",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j126",
+    "name": "横山大観",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j127",
+    "name": "岡本太郎",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j128",
+    "name": "上村松園",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j129",
+    "name": "鈴木大拙",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j130",
+    "name": "南方熊楠",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j131",
+    "name": "柳田国男",
+    "country": "日本",
+    "rarity": 2,
+    "weight": 35
+  },
+  {
+    "personId": "person_j132",
+    "name": "西田幾多郎",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j133",
+    "name": "折口信夫",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j134",
+    "name": "大石内蔵助",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j135",
+    "name": "徳川綱吉",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j136",
+    "name": "徳川光圀",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j137",
+    "name": "山鹿素行",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j138",
+    "name": "荻生徂徠",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j139",
+    "name": "新井白石",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j140",
+    "name": "平賀源内",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j141",
+    "name": "高野長英",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j142",
+    "name": "佐久間象山",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j143",
+    "name": "陸奥宗光",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j144",
+    "name": "島崎藤村",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j145",
+    "name": "新田義貞",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j146",
+    "name": "足利義政",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j147",
+    "name": "一条天皇",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j148",
+    "name": "上泉信綱",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j149",
+    "name": "柳生宗矩",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j150",
+    "name": "鍋島直茂",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j151",
+    "name": "荒木又右衛門",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j152",
+    "name": "北畠顕家",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_j153",
+    "name": "尾崎行雄",
+    "country": "日本",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w050",
+    "name": "プラトン",
+    "country": "ギリシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w051",
+    "name": "アリストテレス",
+    "country": "ギリシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w052",
+    "name": "ピタゴラス",
+    "country": "ギリシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w053",
+    "name": "ヒポクラテス",
+    "country": "ギリシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w054",
+    "name": "アルキメデス",
+    "country": "ギリシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w055",
+    "name": "キケロ",
+    "country": "ローマ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w056",
+    "name": "マルクス・アウレリウス",
+    "country": "ローマ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w057",
+    "name": "アウグスティヌス",
+    "country": "ローマ（北アフリカ）",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w058",
+    "name": "トマス・アクィナス",
+    "country": "イタリア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w059",
+    "name": "ダンテ・アリギエーリ",
+    "country": "イタリア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w060",
+    "name": "デジデリウス・エラスムス",
+    "country": "オランダ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w061",
+    "name": "ミケランジェロ",
+    "country": "イタリア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w062",
+    "name": "ラファエロ",
+    "country": "イタリア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w063",
+    "name": "ルネ・デカルト",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w064",
+    "name": "バルーフ・スピノザ",
+    "country": "オランダ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w065",
+    "name": "ゴットフリート・ライプニッツ",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w066",
+    "name": "ジョン・ロック",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w067",
+    "name": "ジャン＝ジャック・ルソー",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w068",
+    "name": "イマヌエル・カント",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w069",
+    "name": "ゲオルク・ヘーゲル",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w070",
+    "name": "アルトゥル・ショーペンハウアー",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w071",
+    "name": "フリードリッヒ・ニーチェ",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w072",
+    "name": "アダム・スミス",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w073",
+    "name": "ジョン・メイナード・ケインズ",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w074",
+    "name": "ルイ・パスツール",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w075",
+    "name": "ロベルト・コッホ",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w076",
+    "name": "エドワード・ジェンナー",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w077",
+    "name": "グレゴール・ヨハン・メンデル",
+    "country": "オーストリア（現チェコ）",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w078",
+    "name": "マックス・プランク",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w079",
+    "name": "ニールス・ボーア",
+    "country": "デンマーク",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w080",
+    "name": "ヴェルナー・ハイゼンベルク",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w081",
+    "name": "パブロ・ピカソ",
+    "country": "スペイン",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w082",
+    "name": "クロード・モネ",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w083",
+    "name": "フィンセント・ファン・ゴッホ",
+    "country": "オランダ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w084",
+    "name": "フリーダ・カーロ",
+    "country": "メキシコ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w085",
+    "name": "ヨハン・ゼバスティアン・バッハ",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w086",
+    "name": "フレデリック・ショパン",
+    "country": "ポーランド",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w087",
+    "name": "リヒャルト・ワーグナー",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w088",
+    "name": "チャールズ・ディケンズ",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w089",
+    "name": "フョードル・ドストエフスキー",
+    "country": "ロシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w090",
+    "name": "レフ・トルストイ",
+    "country": "ロシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w091",
+    "name": "アントン・チェーホフ",
+    "country": "ロシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w092",
+    "name": "ジェーン・オースティン",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w093",
+    "name": "マーク・トウェイン",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w094",
+    "name": "アーネスト・ヘミングウェイ",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w095",
+    "name": "アガサ・クリスティ",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w096",
+    "name": "フランツ・カフカ",
+    "country": "チェコ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w097",
+    "name": "ガブリエル・ガルシア・マルケス",
+    "country": "コロンビア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w098",
+    "name": "ジョージ・オーウェル",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w099",
+    "name": "チャールズ・チャップリン",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w100",
+    "name": "ウォルト・ディズニー",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w101",
+    "name": "スティーブ・ジョブズ",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w102",
+    "name": "ビル・ゲイツ",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w103",
+    "name": "ライト兄弟",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w104",
+    "name": "アンリ・デュナン",
+    "country": "スイス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w105",
+    "name": "ヴィルヘルム・レントゲン",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w106",
+    "name": "ピョートル・チャイコフスキー",
+    "country": "ロシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w107",
+    "name": "グスタフ・マーラー",
+    "country": "オーストリア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w108",
+    "name": "ルイ・アームストロング",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w109",
+    "name": "エルヴィス・プレスリー",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w110",
+    "name": "マイケル・ジャクソン",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w111",
+    "name": "ジョン・レノン",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w112",
+    "name": "セオドア・ルーズベルト",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w113",
+    "name": "ウッドロウ・ウィルソン",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w114",
+    "name": "ハリー・S・トルーマン",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w115",
+    "name": "ドワイト・アイゼンハワー",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w116",
+    "name": "ロナルド・レーガン",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w117",
+    "name": "バラク・オバマ",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w118",
+    "name": "ミハイル・ゴルバチョフ",
+    "country": "ソ連（ロシア）",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w119",
+    "name": "ウラジーミル・レーニン",
+    "country": "ロシア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w120",
+    "name": "フィデル・カストロ",
+    "country": "キューバ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w121",
+    "name": "チェ・ゲバラ",
+    "country": "アルゼンチン",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w122",
+    "name": "インディラ・ガンジー",
+    "country": "インド",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w123",
+    "name": "マーガレット・サッチャー",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w124",
+    "name": "アンゲラ・メルケル",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w125",
+    "name": "シャルル・ド・ゴール",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w126",
+    "name": "マルコム・X",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w127",
+    "name": "ローザ・パークス",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w128",
+    "name": "アウン・サン・スー・チー",
+    "country": "ミャンマー",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w129",
+    "name": "シモーヌ・ド・ボーヴォワール",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w130",
+    "name": "スーザン・B・アンソニー",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w131",
+    "name": "コラソン・アキノ",
+    "country": "フィリピン",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w132",
+    "name": "デスモンド・ツツ",
+    "country": "南アフリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w133",
+    "name": "ダグ・ハマーショルド",
+    "country": "スウェーデン",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w134",
+    "name": "コンラート・アデナウアー",
+    "country": "ドイツ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w135",
+    "name": "シモーヌ・ヴェイユ",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w136",
+    "name": "アルベルト・シュバイツァー",
+    "country": "ドイツ（アルザス）",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w137",
+    "name": "エリノア・ルーズベルト",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w138",
+    "name": "イサドラ・ダンカン",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w139",
+    "name": "ルイ・ブライユ",
+    "country": "フランス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w140",
+    "name": "ジャクソン・ポロック",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w141",
+    "name": "アンディ・ウォーホル",
+    "country": "アメリカ",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w142",
+    "name": "チャールズ・バベッジ",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w143",
+    "name": "エイダ・ラブレス",
+    "country": "イギリス",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w144",
+    "name": "アレクサンダー・グラハム・ベル",
+    "country": "イギリス（スコットランド）",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w145",
+    "name": "グリエルモ・マルコーニ",
+    "country": "イタリア",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w146",
+    "name": "ニコラ・テスラ",
+    "country": "セルビア（当時オーストリア帝国）",
+    "rarity": 1,
+    "weight": 40
+  },
+  {
+    "personId": "person_w147",
+    "name": "ジョン・フォン・ノイマン",
+    "country": "ハンガリー",
+    "rarity": 1,
+    "weight": 40
+  }
+]
