@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:history_zukan/models/index.dart';
 import 'package:history_zukan/providers/firestore_provider.dart';
+import 'package:history_zukan/providers/seed_data_provider.dart';
 
 class CausalChainScreen extends ConsumerStatefulWidget {
   final String chainId;
@@ -166,6 +167,10 @@ class _CausalChainScreenState extends ConsumerState<CausalChainScreen> {
     required CausalChain chain,
   }) {
     final eventId = chain.eventIdsInOrder[stepIndex];
+    // NOTE: this used to only display the raw internal event ID string
+    // ("イベント ID: event_j001") instead of resolving it — look up the
+    // actual event so the step shows real title/year/description.
+    final event = ref.watch(seedEventByIdProvider(eventId));
     final explanation = stepIndex < chain.explanations.length
         ? chain.explanations[stepIndex]
         : '';
@@ -194,12 +199,24 @@ class _CausalChainScreenState extends ConsumerState<CausalChainScreen> {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    'イベント ID: $eventId',
-                    style: Theme.of(context).textTheme.bodySmall,
+                    event != null
+                        ? '${event.title}（${event.yearDisplay}）'
+                        : 'イベントが見つかりません',
+                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                 ],
               ),
             ),
+
+            if (event != null) ...[
+              const SizedBox(height: 12),
+              Text(
+                event.description,
+                style: Theme.of(context).textTheme.bodyMedium,
+              ),
+            ],
 
             const SizedBox(height: 16),
 

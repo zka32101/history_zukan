@@ -24,6 +24,9 @@ class ChatMessage {
   Map<String, dynamic> toJson() => _$ChatMessageToJson(this);
 
   @override
-  String toString() =>
-      'ChatMessage(role: $role, content: ${content.substring(0, 30)}...)';
+  String toString() {
+    final preview =
+        content.length > 30 ? '${content.substring(0, 30)}...' : content;
+    return 'ChatMessage(role: $role, content: $preview)';
+  }
 }

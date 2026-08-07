@@ -308,11 +308,18 @@ class DiagnosisQuizScreen extends ConsumerStatefulWidget {
 }
 
 class _DiagnosisQuizScreenState extends ConsumerState<DiagnosisQuizScreen> {
+  bool _isSubmitting = false;
+
   @override
   Widget build(BuildContext context) {
     final progress = ref.watch(diagnosisProgressNotifierProvider);
 
-    if (progress.isComplete) {
+    // NOTE: this used to check `progress.isComplete` (answers.length == 10),
+    // which becomes true the instant the 10th answer is *selected* — before
+    // the user even taps "完了". That jumped straight to a permanent
+    // "結果を計算中です..." dead end. Submission (and its loading state) is
+    // now driven explicitly by _submitAnswers / _isSubmitting instead.
+    if (_isSubmitting) {
       return _buildResultsPage(context);
     }
 
@@ -433,9 +440,18 @@ class _DiagnosisQuizScreenState extends ConsumerState<DiagnosisQuizScreen> {
                 if (progress.currentQuestion > 0) const SizedBox(width: 12),
                 Expanded(
                   child: ElevatedButton.icon(
-                    onPressed: progress.answers.isEmpty ? null : () {
-                      _nextQuestion(context);
-                    },
+                    // NOTE: was `progress.answers.isEmpty ? null : ...`,
+                    // which only checked whether *any* question had ever
+                    // been answered — once Q1 was answered, "次へ" stayed
+                    // enabled even for questions the user never tapped an
+                    // option on. Gate on whether *this* question has an
+                    // answer instead.
+                    onPressed: (_isSubmitting ||
+                            progress.answers.length <= progress.currentQuestion)
+                        ? null
+                        : () {
+                            _nextQuestion(context);
+                          },
                     icon: const Icon(Icons.arrow_forward),
                     label: Text(
                       progress.currentQuestion == 9 ? '完了' : '次へ',
@@ -465,11 +481,27 @@ class _DiagnosisQuizScreenState extends ConsumerState<DiagnosisQuizScreen> {
     }
   }
 
-  void _submitAnswers(BuildContext context) {
-    // 結果計算と保存（省略、実装時に完成させる）
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('診断結果を計算中...')),
-    );
+  Future<void> _submitAnswers(BuildContext context) async {
+    setState(() => _isSubmitting = true);
+    try {
+      // Computes the score (diagnosisScoreProvider) and persists the
+      // result to Hive (diagnosisResultBoxProvider) — this used to only
+      // show a "計算中..." snackbar and never actually call either.
+      await ref.read(submitDiagnosisProvider.future);
+      // previousDiagnosisResultProvider reads the Hive box directly; it
+      // won't notice the box.add() above on its own, so invalidate it
+      // explicitly to pick up the just-saved result.
+      ref.invalidate(previousDiagnosisResultProvider);
+      ref.read(diagnosisProgressNotifierProvider.notifier).reset();
+      if (!mounted) return;
+      Navigator.of(context).pop();
+    } catch (e) {
+      if (!mounted) return;
+      setState(() => _isSubmitting = false);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('診断結果の保存に失敗しました: $e')),
+      );
+    }
   }
 
   Widget _buildResultsPage(BuildContext context) {

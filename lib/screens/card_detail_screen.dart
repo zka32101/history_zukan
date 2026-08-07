@@ -29,70 +29,23 @@ class _CardDetailScreenState extends ConsumerState<CardDetailScreen> {
     _revealedPoints = {};
   }
 
-  HistoryEvent _mockFallback() {
-    return HistoryEvent(
-      id: widget.eventId,
-      title: '本能寺の変',
-      titleReading: 'ほんのうじのへん',
-      description:
-          '天正10年（1582年）、織田信長は京都の本能寺に宿泊していた。その時、配下の明智光秀が謀反を企て、信長を襲撃した。信長は…',
-      year: 1582,
-      yearDisplay: '天正10年',
-      era: '戦国時代',
-      regionJp: '京都',
-      regionWorld: 'アジア',
-      country: '日本',
-      locationName: '京都府京都市中京区',
-      themeIds: ['politics', 'military'],
-      tags: ['戦国', '信長'],
-      relatedEventIds: ['event_002', 'event_003'],
-      relatedPersonIds: ['person_j001', 'person_j002'],
-      imageUrl: 'https://via.placeholder.com/400x300?text=Honno-ji+Incident',
-      historyType: 'event',
-      isPremium: false,
-      createdAt: DateTime.now(),
-      updatedAt: DateTime.now(),
-      searchKeywords: ['本能寺', '信長', '光秀'],
-      source: 'history-db-v1',
-      isVerified: true,
-      wowFactor: '天下統一まであと一歩だった信長が、まさかの部下による裏切りで倒された！',
-      howItChanged: 'この後、秀吉が天下を取り、日本は戦国時代から安土桃山時代へ大きく変わった。',
-      quizPoints: [
-        QuizPoint(
-          characterOffset: 50,
-          question: 'この後、明智光秀はどうなったと思う？',
-          choices: [
-            '光秀は逃亡に成功した',
-            '光秀は信長に倒された',
-            '光秀は天下を統一した',
-          ],
-          correctAnswer: '光秀は逃亡に成功したが、その後秀吉に滅ぼされた',
-          explanation:
-              '実際には光秀は信長に倒されず逃亡しました。しかし11日後、秀吉の追撃で滅ぼされてしまいました。',
-          countAsCorrect: true,
-        ),
-        QuizPoint(
-          characterOffset: 100,
-          question: '信長の後継者は誰になった？',
-          choices: [
-            '明智光秀',
-            '豊臣秀吉',
-            '徳川家康',
-          ],
-          correctAnswer: '豊臣秀吉が信長の遺志を継いで天下を統一した',
-          explanation: '秀吉は信長の後を継ぎ、1590年に全国統一を達成しました。',
-          countAsCorrect: true,
-        ),
-      ],
-      month: 6,
-      day: 21,
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
-    final event = ref.watch(seedEventByIdProvider(widget.eventId)) ?? _mockFallback();
+    final event = ref.watch(seedEventByIdProvider(widget.eventId));
     final allPersons = ref.watch(seedPersonsProvider);
+
+    if (event == null) {
+      // NOTE: this used to silently substitute an unrelated, hardcoded
+      // "本能寺の変" event whenever eventId wasn't found — a user following
+      // a causal chain / notification deep link with a stale or bad ID
+      // would see the wrong historical content with no indication
+      // anything was wrong. Show an explicit not-found state instead,
+      // matching PersonDetailScreen's pattern.
+      return Scaffold(
+        appBar: AppBar(title: const Text('歴史カード詳細')),
+        body: const Center(child: Text('イベントが見つかりませんでした')),
+      );
+    }
 
     return Scaffold(
       appBar: AppBar(
@@ -472,61 +425,77 @@ class _CardDetailScreenState extends ConsumerState<CardDetailScreen> {
                 }),
               ),
             if (isRevealed && userAnswer != null)
-              Container(
-                padding: const EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  color: Colors.green.shade50,
-                  border: Border.all(color: Colors.green),
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
+              Builder(
+                builder: (context) {
+                  // A3 designs deliberately avoid scoring ("all responses
+                  // treated as learning" per CLAUDE.md), but a checkmark
+                  // that's always green regardless of the answer actively
+                  // misleads the child into thinking every guess was
+                  // correct — show whether the pick matched, still without
+                  // any point-tracking.
+                  final isCorrect = userAnswer == point.correctAnswer;
+                  final accentColor = isCorrect ? Colors.green : Colors.orange;
+                  return Container(
+                    padding: const EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: accentColor.shade50,
+                      border: Border.all(color: accentColor),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Icon(Icons.check_circle, color: Colors.green, size: 20),
-                        const SizedBox(width: 8),
-                        Expanded(
-                          child: Text(
-                            'あなたの予想: $userAnswer',
-                            style: Theme.of(context).textTheme.bodySmall,
+                        Row(
+                          children: [
+                            Icon(
+                              isCorrect ? Icons.check_circle : Icons.info,
+                              color: accentColor,
+                              size: 20,
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: Text(
+                                'あなたの予想: $userAnswer',
+                                style: Theme.of(context).textTheme.bodySmall,
+                              ),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 8),
+                        Container(
+                          padding: const EdgeInsets.all(8),
+                          decoration: BoxDecoration(
+                            color: Colors.amber.shade50,
+                            borderRadius: BorderRadius.circular(4),
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                '実際のこと:',
+                                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              Text(
+                                point.correctAnswer,
+                                style: Theme.of(context).textTheme.bodySmall,
+                              ),
+                              const SizedBox(height: 8),
+                              Text(
+                                point.explanation,
+                                style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                  fontStyle: FontStyle.italic,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
                     ),
-                    const SizedBox(height: 8),
-                    Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: Colors.amber.shade50,
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            '実際のこと:',
-                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          Text(
-                            point.correctAnswer,
-                            style: Theme.of(context).textTheme.bodySmall,
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            point.explanation,
-                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              fontStyle: FontStyle.italic,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
+                  );
+                },
               ),
           ],
         ),

@@ -5,6 +5,11 @@ on:
     tags:
       - 'v*'
 
+# Least privilege: this workflow only builds an APK artifact, it never
+# needs to write to the repo, issues, or PRs.
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest

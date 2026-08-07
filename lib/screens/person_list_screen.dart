@@ -25,7 +25,7 @@ class _PersonListScreenState extends State<PersonListScreen> {
   @override
   void initState() {
     super.initState();
-    _allPersons = SeedData.getPersons();
+    _allPersons = SeedData.generateSamplePersons();
     _filteredPersons = List.from(_allPersons);
     _searchController.addListener(_filterAndSort);
     _scrollController.addListener(_onScroll);
@@ -63,8 +63,8 @@ class _PersonListScreenState extends State<PersonListScreen> {
     switch (_sortBy) {
       case 'year_birth':
         result.sort((a, b) {
-          final aYear = int.tryParse(a.birthYear) ?? 0;
-          final bYear = int.tryParse(b.birthYear) ?? 0;
+          final aYear = int.tryParse(a.birthYear ?? '0') ?? 0;
+          final bYear = int.tryParse(b.birthYear ?? '0') ?? 0;
           return aYear.compareTo(bYear);
         });
         break;

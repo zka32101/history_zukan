@@ -65,16 +65,29 @@ class FirestoreService {
     }
   }
 
-  /// Get all causal chains (with pagination)
+  /// Get all free-tier causal chains (with pagination).
+  /// NOTE: filtered to `isPremium == false` because the security rule on
+  /// this collection is per-document (`!resource.data.isPremium ||
+  /// hasPurchased()`) — an unfiltered collection query is rejected by
+  /// Firestore outright for any user who doesn't pass `hasPurchased()`,
+  /// since it can't prove every possible result is rule-compliant.
+  /// Purchased users' premium chains should be fetched via [getCausalChain]
+  /// (single-doc reads are evaluated per-document, not per-query).
   Future<List<CausalChain>> getAllCausalChains({int limit = 20}) async {
-    final snapshot = await _firestore
-        .collection('causalChains')
-        .limit(limit)
-        .get();
+    try {
+      final snapshot = await _firestore
+          .collection('causalChains')
+          .where('isPremium', isEqualTo: false)
+          .limit(limit)
+          .get();
 
-    return snapshot.docs
-        .map((doc) => CausalChain.fromFirestore(doc as DocumentSnapshot<Map<String, dynamic>>))
-        .toList();
+      return snapshot.docs
+          .map((doc) => CausalChain.fromFirestore(doc as DocumentSnapshot<Map<String, dynamic>>))
+          .toList();
+    } catch (e) {
+      print('Error fetching causal chains: $e');
+      return [];
+    }
   }
 
   // ============================================
@@ -111,32 +124,40 @@ class FirestoreService {
     double userLng,
     double radiusKm,
   ) async {
-    // Fetch all events with location data
-    // Client-side filtering to avoid sending exact location to Firestore
-    final snapshot = await _firestore
-        .collection('events')
-        .where('lat', isNotEqualTo: null)
-        .where('lng', isNotEqualTo: null)
-        .limit(200)
-        .get();
+    try {
+      // Fetch events with location data.
+      // NOTE: Firestore doesn't support `!=` filters on two different
+      // fields in one query — filter only on `lat` here and check `lng`
+      // client-side below (same as the null-check for `lat` itself).
+      // Client-side filtering also avoids sending exact user location to
+      // Firestore for the radius calculation.
+      final snapshot = await _firestore
+          .collection('events')
+          .where('lat', isNotEqualTo: null)
+          .limit(200)
+          .get();
 
-    final allEvents = snapshot.docs
-        .map((doc) => HistoryEvent.fromFirestore(doc))
-        .toList();
+      final allEvents = snapshot.docs
+          .map((doc) => HistoryEvent.fromFirestore(doc))
+          .toList();
 
-    // Filter by radius (Haversine formula)
-    return allEvents
-        .where((event) {
-          if (event.lat == null || event.lng == null) return false;
-          final distance = _calculateDistance(
-            userLat,
-            userLng,
-            event.lat!,
-            event.lng!,
-          );
-          return distance <= radiusKm;
-        })
-        .toList();
+      // Filter by radius (Haversine formula)
+      return allEvents
+          .where((event) {
+            if (event.lat == null || event.lng == null) return false;
+            final distance = _calculateDistance(
+              userLat,
+              userLng,
+              event.lat!,
+              event.lng!,
+            );
+            return distance <= radiusKm;
+          })
+          .toList();
+    } catch (e) {
+      print('Error fetching nearby events: $e');
+      return [];
+    }
   }
 
   // ============================================
@@ -262,16 +283,61 @@ class FirestoreService {
 
   /// Get all events with month and day (for scheduling notifications)
   Future<List<HistoryEvent>> getAllEventsWithDateInfo({int limit = 500}) async {
-    final snapshot = await _firestore
-        .collection('events')
-        .where('month', isNotEqualTo: null)
-        .where('day', isNotEqualTo: null)
-        .limit(limit)
-        .get();
+    try {
+      // NOTE: Firestore doesn't support `!=` filters on two different
+      // fields in one query — filter only on `month` and check `day`
+      // client-side below.
+      final snapshot = await _firestore
+          .collection('events')
+          .where('month', isNotEqualTo: null)
+          .limit(limit)
+          .get();
 
+      return snapshot.docs
+          .map((doc) => HistoryEvent.fromFirestore(doc))
+          .where((event) => event.day != null)
+          .toList();
+    } catch (e) {
+      print('Error fetching events with date info: $e');
+      return [];
+    }
+  }
+
+  // ============================================
+  // Gacha queries
+  // ============================================
+
+  /// ガチャマスタ人物データを取得 (Firestore: gacha_persons)
+  Future<List<GachaPerson>> getGachaPersons() async {
+    final snapshot = await _firestore.collection('gacha_persons').get();
     return snapshot.docs
-        .map((doc) => HistoryEvent.fromFirestore(doc))
+        .map((doc) => GachaPerson.fromJson(doc.data()))
         .toList();
+  }
+
+  /// ガチャ結果をユーザーごとに記録 (Firestore: gachaLogs/{uid}/records/{id})
+  /// NOTE: failures here must not fail the whole gacha draw — the result is
+  /// already persisted locally in Hive by the time this is called.
+  Future<void> logGachaResult(String uid, GachaRecord record) async {
+    try {
+      await _firestore
+          .collection('gachaLogs')
+          .doc(uid)
+          .collection('records')
+          .doc(record.id)
+          .set(record.toJson());
+    } catch (e) {
+      print('Error logging gacha result: $e');
+    }
+  }
+
+  // ============================================
+  // Login Streak queries
+  // ============================================
+
+  /// ログインストリークを Firestore に同期 (Firestore: loginStreaks/{uid})
+  Future<void> updateLoginStreak(String uid, LoginStreak streak) async {
+    await _firestore.collection('loginStreaks').doc(uid).set(streak.toJson());
   }
 
   // ============================================
@@ -310,7 +376,7 @@ class FirestoreService {
   Future<void> seedPersonsToFirestore() async {
     print('📚 Firestore に人物データをアップロード中...');
 
-    final persons = SeedData.getPersons();
+    final persons = SeedData.generateSamplePersons();
     int count = 0;
     int failed = 0;
 
@@ -343,7 +409,7 @@ class FirestoreService {
   Future<void> seedEventsToFirestore() async {
     print('📅 Firestore にイベントデータをアップロード中...');
 
-    final events = SeedData.getEvents();
+    final events = SeedData.generateSampleEvents();
     int count = 0;
     int failed = 0;
 

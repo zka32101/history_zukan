@@ -1,3 +1,4 @@
+import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:history_zukan/models/index.dart';
@@ -106,6 +107,7 @@ final gachaStatisticsProvider = FutureProvider<GachaStatistics>((ref) async {
 /// ガチャ実行StateNotifier
 class GachaExecutor extends StateNotifier<AsyncValue<GachaResult>> {
   final Ref ref;
+  final Random _random = Random();
 
   GachaExecutor(this.ref) : super(const AsyncValue.loading());
 
@@ -159,7 +161,11 @@ class GachaExecutor extends StateNotifier<AsyncValue<GachaResult>> {
 
   /// 確率重み付けに基づいて人物を選択
   GachaPerson _selectPersonByWeight(List<GachaPerson> persons) {
-    final random = (DateTime.now().millisecondsSinceEpoch % 1000) / 1000.0;
+    if (persons.isEmpty) {
+      throw StateError('ガチャの人物マスタデータが空です');
+    }
+
+    final random = _random.nextDouble();
     double totalWeight = 0;
     double cumulativeWeight = 0;
 
