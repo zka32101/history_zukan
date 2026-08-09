@@ -59,6 +59,7 @@ class _PersonChatScreenState extends ConsumerState<PersonChatScreen> {
           widget.person,
         )).future,
       );
+      if (!mounted) return;
       _scrollToBottom();
     } catch (e) {
       if (mounted) {

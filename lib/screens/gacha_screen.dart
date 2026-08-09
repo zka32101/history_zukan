@@ -42,6 +42,7 @@ class _GachaScreenState extends ConsumerState<GachaScreen>
     setState(() => _isSpinning = true);
     await _spinController.forward(from: 0);
     await ref.read(gachaExecutorProvider.notifier).executeGacha();
+    if (!mounted) return;
     setState(() => _isSpinning = false);
   }
 

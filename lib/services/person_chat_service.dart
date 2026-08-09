@@ -7,6 +7,7 @@ class PersonChatService {
   static const int _maxTokensPerResponse = 300;
   static const int _maxMessageLength = 500;
   static const int _maxContextMessages = 6; // last 3 exchanges
+  static const int _maxServerMessages = 20; // mirrors functions/index.js cap
 
   final _callable =
       FirebaseFunctions.instanceFor(region: 'asia-northeast1')
@@ -22,13 +23,18 @@ class PersonChatService {
       throw Exception('メッセージが長すぎます（最大${_maxMessageLength}文字）。');
     }
 
-    final systemPrompt = _buildSystemPrompt(person);
     final messages = _convertToApiFormat(conversationHistory, userMessage);
+    if (messages.length > _maxServerMessages) {
+      throw Exception('会話が長すぎます。');
+    }
 
     try {
+      // NOTE: only personId is sent — the Cloud Function looks up the
+      // person and builds the system prompt server-side. Never send a
+      // client-constructed system prompt: a client could otherwise turn
+      // this callable into an arbitrary, unmoderated Claude proxy.
       final result = await _callable.call({
-        'personName': person.name,
-        'systemPrompt': systemPrompt,
+        'personId': person.id,
         'messages': messages,
         'maxTokens': _maxTokensPerResponse,
       });
@@ -50,28 +56,11 @@ class PersonChatService {
         default:
           throw Exception('通信エラー: ${e.message}');
       }
+    } catch (_) {
+      // Network failures, malformed responses, etc. — never leak the raw
+      // exception (which may contain internal details) to the UI.
+      throw Exception('通信エラーが発生しました。しばらくしてからもう一度お試しください。');
     }
-  }
-
-  String _buildSystemPrompt(HistoryPerson person) {
-    final quotes = person.famousQuotes?.join('\n') ?? '';
-    final timeline = person.lifeTimeline?.entries
-            .map((e) => '${e.key}: ${e.value}')
-            .join('\n') ??
-        '';
-
-    return '''あなたは${person.name}（${person.birthYear}〜${person.deathYear}年）になりきって会話します。
-
-背景: ${person.description}
-性格: ${person.personality ?? '不詳'}
-
-${quotes.isNotEmpty ? '名言:\n$quotes\n' : ''}${timeline.isNotEmpty ? '主要事件:\n$timeline\n' : ''}
-会話ルール:
-1. 一人称を「我」「わし」など歴史人物らしく使う
-2. 5〜8文で簡潔に答える
-3. 日本語のみで回答する
-4. 歴史的に正確な情報を提供する
-5. 子ども（小学生）にもわかりやすく話す''';
   }
 
   List<Map<String, String>> _convertToApiFormat(

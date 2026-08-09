@@ -112,9 +112,16 @@ final submitPuzzleAnswerProvider =
   final progress = ref.watch(puzzleProgressNotifierProvider);
 
   // 部分一致または完全一致で判定
-  final isCorrect =
-      puzzle.commonTrait.contains(answer) ||
-      answer.contains(puzzle.commonTrait.split(' ')[0]); // 最初の単語でも OK
+  // NOTE: `answer` must be trimmed and non-empty first — `String.contains('')`
+  // is always true in Dart, so an empty/whitespace-only answer used to be
+  // graded "correct" automatically. Also normalize spaces instead of
+  // splitting on the first word: Japanese sentences have no spaces, so
+  // `commonTrait.split(' ')[0]` degenerated to the whole sentence.
+  final trimmedAnswer = answer.trim();
+  final normalizedTrait = puzzle.commonTrait.replaceAll(' ', '');
+  final isCorrect = trimmedAnswer.length >= 2 &&
+      (normalizedTrait.contains(trimmedAnswer) ||
+          trimmedAnswer.contains(normalizedTrait));
 
   // Hive に記録
   final box = ref.read(puzzleRecordBoxProvider);

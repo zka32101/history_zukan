@@ -48,7 +48,8 @@ class _PersonCardState extends State<PersonCard> with SingleTickerProviderStateM
 
   @override
   Widget build(BuildContext context) {
-    final years = '${widget.person.birthYear} - ${widget.person.deathYear ?? '現代'}';
+    final years =
+        '${widget.person.birthYear ?? '不明'} - ${widget.person.deathYear ?? '現代'}';
 
     return AnimatedBuilder(
       animation: _hoverController,

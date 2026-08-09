@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'firebase_options.dart';
+import 'models/index.dart';
 import 'screens/improved_home_screen.dart';
 import 'services/notification_service.dart';
-import 'services/firestore_service.dart';
 import 'utils/hive_storage.dart';
 import 'providers/theme_provider.dart';
 
@@ -19,23 +19,40 @@ void main() async {
 
   // Initialize Hive
   await Hive.initFlutter();
+
+  // Register every @HiveType adapter used by typed boxes below. Opening a
+  // typed Box<T> or writing a T without its adapter registered first
+  // throws a HiveError at runtime — this used to crash (or silently drop
+  // writes inside a try/catch) the first time login streak, gacha,
+  // puzzle, quiz, or diagnosis data was touched.
+  Hive.registerAdapter(UserProfileAdapter());
+  Hive.registerAdapter(ChatHistoryAdapter());
+  Hive.registerAdapter(GachaRecordAdapter());
+  Hive.registerAdapter(LoginStreakAdapter());
+  Hive.registerAdapter(PersonalityDiagnosisResultAdapter());
+  Hive.registerAdapter(QuizNotificationRecordAdapter());
+  Hive.registerAdapter(PersonRelationPuzzleRecordAdapter());
+
   await Hive.openBox<String>(ChatHistoryStorage.boxName);
+  await Hive.openBox<GachaRecord>('gacha_records');
+  await Hive.openBox<LoginStreak>('login_streaks');
+  await Hive.openBox<PersonRelationPuzzleRecord>('puzzle_records');
+  await Hive.openBox<QuizNotificationRecord>('quiz_records');
+  await Hive.openBox<PersonalityDiagnosisResult>('diagnosis_results');
 
   // Initialize notifications (C2)
   await NotificationService().initialize();
 
-  // Seed data upload to Firestore (初回起動時のみ)
-  final firestore = FirestoreService();
-  final shouldSeed = await Hive.openBox('config')
-      .then((box) => !box.containsKey('firebase_seeded'));
-
-  if (shouldSeed) {
-    print('🚀 初回起動：Firestore に seed data をアップロード中...');
-    await firestore.seedAllData().then((_) {
-      Hive.box('config').put('firebase_seeded', true);
-      print('✅ アップロード完了！');
-    });
-  }
+  // NOTE: seed data (persons/events) is uploaded to Firestore via the
+  // admin-only `scripts/upload_gacha_persons.js` script (a service-account
+  // key, never shipped in the app). This app used to also bulk-write
+  // 300+ person/event docs directly from the client on first launch —
+  // that logic was removed: Firestore's security rules correctly require
+  // `admin` custom claims to write `persons`/`events`, which this
+  // unauthenticated client never has, so the writes always failed
+  // (silently, one per document) anyway. Shipping bulk-write-to
+  // admin-collections logic in a public client binary is a needless
+  // attack-surface/cost risk even when it's currently rejected by rules.
 
   runApp(
     const ProviderScope(

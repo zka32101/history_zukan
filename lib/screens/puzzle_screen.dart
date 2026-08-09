@@ -242,7 +242,7 @@ class _PuzzleScreenState extends ConsumerState<PuzzleScreen> {
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton.icon(
-                    onPressed: progress.answer.isEmpty
+                    onPressed: progress.answer.trim().isEmpty
                         ? null
                         : () {
                             ref.read(puzzleProgressNotifierProvider.notifier).submit();

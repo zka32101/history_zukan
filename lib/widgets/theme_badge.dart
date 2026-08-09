@@ -5,7 +5,7 @@ class ThemeBadge extends StatelessWidget {
 
   const ThemeBadge(this.themeId, {super.key});
 
-  Map<String, dynamic> _getThemeInfo(String id) {
+  ({IconData icon, Color color, String label}) _getThemeInfo(String id) {
     const themes = {
       'politics': (icon: Icons.account_balance, color: Color(0xFF1976D2), label: '政治'),
       'culture': (icon: Icons.palette, color: Color(0xFF7B1FA2), label: '文化'),
@@ -26,24 +26,24 @@ class ThemeBadge extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: (info['color'] as Color).withOpacity(0.15),
+        color: info.color.withOpacity(0.15),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: (info['color'] as Color).withOpacity(0.3), width: 0.5),
+        border: Border.all(color: info.color.withOpacity(0.3), width: 0.5),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           Icon(
-            info['icon'] as IconData,
+            info.icon,
             size: 12,
-            color: info['color'] as Color,
+            color: info.color,
           ),
           const SizedBox(width: 4),
           Text(
-            info['label'] as String,
+            info.label,
             style: TextStyle(
               fontSize: 10,
-              color: info['color'] as Color,
+              color: info.color,
               fontWeight: FontWeight.w600,
             ),
           ),

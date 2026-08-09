@@ -94,6 +94,7 @@ class _MyTimelineScreenState extends ConsumerState<MyTimelineScreen> {
     );
 
     if (picked != null) {
+      if (!mounted) return;
       setState(() {
         selectedDate = picked;
       });

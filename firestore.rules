@@ -3,19 +3,44 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     // ========== events コレクション ==========
-    // 歴史イベント：全員読み取り可能（テスト段階）
+    // 歴史イベント：無料 or 検証済み or 購入済みユーザーが読み取り可能
+    // (CLAUDE.md の設計どおり。isPremium な events を誰でも読める状態にしない)
     match /events/{document=**} {
-      allow read: if true;
+      allow read: if resource.data.isVerified == true ||
+                     !resource.data.isPremium ||
+                     hasPurchased();
       allow write: if request.auth != null &&
                       request.auth.token.admin == true;
     }
 
     // ========== persons コレクション ==========
-    // 300人の歴史人物：全員読み取り可能（購入不要）
+    // 300人の歴史人物：全員読み取り可能（購入不要、CLAUDE.md の設計どおり）
     match /persons/{document=**} {
       allow read: if true;
       allow write: if request.auth != null &&
                       request.auth.token.admin == true;
+    }
+
+    // ========== gacha_persons コレクション ==========
+    // ガチャ用マスタデータ：全員読み取り可能（公開情報、購入不要）
+    match /gacha_persons/{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null &&
+                      request.auth.token.admin == true;
+    }
+
+    // ========== gachaLogs コレクション ==========
+    // ガチャ実行履歴：本人専用アクセス制御
+    match /gachaLogs/{userId}/{document=**} {
+      allow read, write: if request.auth != null &&
+                             request.auth.uid == userId;
+    }
+
+    // ========== loginStreaks コレクション ==========
+    // ログインストリーク：本人専用アクセス制御
+    match /loginStreaks/{userId} {
+      allow read, write: if request.auth != null &&
+                             request.auth.uid == userId;
     }
 
     // ========== causalChains コレクション ==========
@@ -34,9 +59,19 @@ service cloud.firestore {
                             request.auth.uid == userId;
     }
 
+    // ========== chatQuotas コレクション ==========
+    // D1 AI チャットの会話数カウンタ：本人は読み取りのみ。
+    // 書き込みは Cloud Functions（Admin SDK、ルールをバイパス）専用にし、
+    // クライアントから自分のクォータを書き換えられないようにする。
+    match /chatQuotas/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow write: if false;
+    }
+
     // ========== causalChains 内の details サブコレクション ==========
+    // 親チェーンの isPremium を見て判定する（$(chainId) で変数展開する必要がある）
     match /causalChains/{chainId}/details/{document=**} {
-      allow read: if !get(/databases/(default)/documents/causalChains/{chainId}).data.isPremium ||
+      allow read: if !get(/databases/$(database)/documents/causalChains/$(chainId)).data.isPremium ||
                      hasPurchased();
       allow write: if request.auth != null &&
                       request.auth.token.admin == true;
@@ -44,9 +79,13 @@ service cloud.firestore {
 
     // ========== ヘルパー関数 ==========
     // ユーザーが購入済みかチェック
+    // NOTE: 実際の購入検証（レシート/Play Billing等）はサーバー側（Cloud Functions）で行い、
+    // 検証済みユーザーにのみ `premium` カスタムクレームを付与すること。
+    // sign_in_provider != 'anonymous' だけでは「匿名ログインでない」ことしか保証されず、
+    // 誰でも無料アカウントを作るだけで premium 判定を通過できてしまうため使用しない。
     function hasPurchased() {
       return request.auth != null &&
-             request.auth.token.firebase.sign_in_provider != 'anonymous';
+             request.auth.token.premium == true;
     }
   }
 }

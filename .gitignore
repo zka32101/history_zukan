@@ -23,3 +23,11 @@ GoogleService-Info.plist
 *.p8
 *.p12
 
+# Firebase Admin SDK credentials (grants full, rules-bypassing Firestore access)
+service-account-key.json
+scripts/service-account-key.json
+scripts/.env
+
+# Android release signing (DO NOT COMMIT)
+key.properties
+

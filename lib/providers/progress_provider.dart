@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:history_zukan/models/index.dart';
 import 'package:riverpod/riverpod.dart';
@@ -11,13 +12,21 @@ class ProgressNotifier extends StateNotifier<UserProgress> {
     _loadProgress();
   }
 
-  /// Load progress from Hive
+  /// Load progress from Hive.
+  /// NOTE: stored as a JSON string (Box<String>), not a typed Box<UserProgress>
+  /// — UserProgress has no @HiveType/registered TypeAdapter, so writing it
+  /// directly to a typed box would throw `HiveError: Cannot write, unknown
+  /// type UserProgress` the first time progress is saved (i.e. on every
+  /// first card view). This mirrors the pattern already used by
+  /// ChatHistoryStorage.
   Future<void> _loadProgress() async {
     try {
-      final box = await Hive.openBox<UserProgress>(_boxName);
-      final saved = box.get('progress_${state.uid}');
-      if (saved != null) {
-        state = saved;
+      final box = await Hive.openBox<String>(_boxName);
+      final raw = box.get('progress_${state.uid}');
+      if (raw != null) {
+        state = UserProgress.fromJson(
+          Map<String, dynamic>.from(jsonDecode(raw) as Map),
+        );
       }
     } catch (e) {
       print('Error loading progress: $e');
@@ -27,8 +36,8 @@ class ProgressNotifier extends StateNotifier<UserProgress> {
   /// Save progress to Hive
   Future<void> _saveProgress() async {
     try {
-      final box = await Hive.openBox<UserProgress>(_boxName);
-      await box.put('progress_${state.uid}', state);
+      final box = await Hive.openBox<String>(_boxName);
+      await box.put('progress_${state.uid}', jsonEncode(state.toJson()));
     } catch (e) {
       print('Error saving progress: $e');
     }
@@ -95,10 +104,23 @@ class ProgressNotifier extends StateNotifier<UserProgress> {
       }
     }
 
-    if (medals != state.unlockedMedals) {
+    if (!_mapEquals(medals, state.unlockedMedals)) {
       state = state.copyWith(unlockedMedals: medals);
       await _saveProgress();
     }
+  }
+
+  /// Value-equality for Map<String, bool> — `Map` doesn't override `==`,
+  /// so `medals != state.unlockedMedals` above always compared object
+  /// identity and was always true (a fresh Map is built every call),
+  /// causing every event view to trigger an unconditional rebuild + Hive
+  /// write even when no medal actually changed.
+  bool _mapEquals(Map<String, bool> a, Map<String, bool> b) {
+    if (a.length != b.length) return false;
+    for (final entry in a.entries) {
+      if (b[entry.key] != entry.value) return false;
+    }
+    return true;
   }
 
   /// Get completion percentage for an era
