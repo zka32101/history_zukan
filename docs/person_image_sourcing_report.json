@@ -1,0 +1,5138 @@
+[
+  {
+    "id": "person_j001",
+    "name": "聖徳太子",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q263972",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q263972",
+      "commonsFile": "Prince Shotoku with Two Princes by Kano Osanobu 1842.png",
+      "license": "public domain",
+      "artist": "Kano Osanobu (August 18, 1796 - June 12, 1846)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Prince_Shotoku_with_Two_Princes_by_Kano_Osanobu_1842.png"
+    }
+  },
+  {
+    "id": "person_j002",
+    "name": "源頼朝",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q242800",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q242800",
+      "commonsFile": "Minamoto no Yoritomo.jpg",
+      "license": "public domain",
+      "artist": "Fujiwara no Takanobu",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Minamoto_no_Yoritomo.jpg"
+    }
+  },
+  {
+    "id": "person_j003",
+    "name": "織田信長",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q171411",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q171411",
+      "commonsFile": "Odanobunaga.jpg",
+      "license": "public domain",
+      "artist": "狩野宗秀 (Kanō Sōshū, 1551 - 1601)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Odanobunaga.jpg"
+    }
+  },
+  {
+    "id": "person_j004",
+    "name": "豊臣秀吉",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q187550",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q187550",
+      "commonsFile": "Toyotomi Hideyoshi (Kodaiji).jpg",
+      "license": "public domain",
+      "artist": "Kanō Mitsunobu",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Toyotomi_Hideyoshi_(Kodaiji).jpg"
+    }
+  },
+  {
+    "id": "person_j005",
+    "name": "徳川家康",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q171977",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q171977",
+      "commonsFile": "Tokugawa Ieyasu2.JPG",
+      "license": "public domain",
+      "artist": "Kanō Tan'yū",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tokugawa_Ieyasu2.JPG"
+    }
+  },
+  {
+    "id": "person_j006",
+    "name": "卑弥呼",
+    "status": "NO_P18_IMAGE",
+    "detail": null,
+    "qid": "Q234451",
+    "matchedOn": [
+      "death"
+    ]
+  },
+  {
+    "id": "person_j007",
+    "name": "坂本龍馬",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q378450",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q378450",
+      "commonsFile": "Sakamoto Ryoma.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sakamoto_Ryoma.jpg"
+    }
+  },
+  {
+    "id": "person_j008",
+    "name": "紫式部",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q81731",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q81731",
+      "commonsFile": "Murasaki-Shikibu-composing-Genji-Monogatari.png",
+      "license": "public domain",
+      "artist": "Tosa Mitsuoki (1617 - 1691)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Murasaki-Shikibu-composing-Genji-Monogatari.png"
+    }
+  },
+  {
+    "id": "person_w001",
+    "name": "マハトマ・ガンジー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1001",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1001",
+      "commonsFile": "Mahatma-Gandhi, studio, 1931.jpg",
+      "license": "public domain",
+      "artist": "Elliott &amp; Fry",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg"
+    }
+  },
+  {
+    "id": "person_w002",
+    "name": "エイブラハム・リンカーン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q91",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q91",
+      "commonsFile": "Abraham Lincoln O-77 matte collodion print.jpg",
+      "license": "public domain",
+      "artist": "Alexander Gardner",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+    }
+  },
+  {
+    "id": "person_j009",
+    "name": "源義経",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q310445",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q310445",
+      "commonsFile": "Minamoto Yoshitsune.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Minamoto_Yoshitsune.jpg"
+    }
+  },
+  {
+    "id": "person_w003",
+    "name": "レオナルド・ダ・ヴィンチ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q762",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q762",
+      "commonsFile": "Francesco Melzi - Portrait of Leonardo.png",
+      "license": "public domain",
+      "artist": "Attributed to Francesco Melzi",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo.png"
+    }
+  },
+  {
+    "id": "person_j010",
+    "name": "西郷隆盛",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q310462",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q310462",
+      "commonsFile": "Saigo Takamori Portrait by Ishikawa Shizumasa.jpg",
+      "license": "public domain",
+      "artist": "Ishikawa Shizumasa (1848-1925)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Saigo_Takamori_Portrait_by_Ishikawa_Shizumasa.jpg"
+    }
+  },
+  {
+    "id": "person_j011",
+    "name": "北里柴三郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q442225",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q442225",
+      "commonsFile": "Kitasato Shibasaburo.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kitasato_Shibasaburo.jpg"
+    }
+  },
+  {
+    "id": "person_w004",
+    "name": "クレオパトラ7世",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q635",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q635",
+      "commonsFile": "Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+      "license": "public domain",
+      "artist": "Louis le Grand",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+    }
+  },
+  {
+    "id": "person_w005",
+    "name": "ナポレオン・ボナパルト",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q517",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q517",
+      "commonsFile": "Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg",
+      "license": "public domain",
+      "artist": "Jacques-Louis David",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+    }
+  },
+  {
+    "id": "person_j012",
+    "name": "勝海舟",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q700470",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q700470",
+      "commonsFile": "Kaishu Katsu 2.jpg",
+      "license": "public domain",
+      "artist": "published by 東洋文化協會 (The Eastern Culture Association)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kaishu_Katsu_2.jpg"
+    }
+  },
+  {
+    "id": "person_j013",
+    "name": "平塚らいてう",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q508522",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q508522",
+      "commonsFile": "Raicho Hiratsuka.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Raicho_Hiratsuka.jpg"
+    }
+  },
+  {
+    "id": "person_w006",
+    "name": "マルコ・ポーロ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q6101",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q6101",
+      "commonsFile": "Marco Polo Mosaic from Palazzo Tursi.jpg",
+      "license": "public domain",
+      "artist": "Salviati",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg"
+    }
+  },
+  {
+    "id": "person_w007",
+    "name": "ウィンストン・チャーチル",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8016",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8016",
+      "commonsFile": "Sir Winston Churchill - 19086236948 (restored).jpg",
+      "license": "public domain",
+      "artist": "Yousuf Karsh",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg"
+    }
+  },
+  {
+    "id": "person_j014",
+    "name": "大久保利通",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q356118",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q356118",
+      "commonsFile": "Toshimichi Okubo 4.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Toshimichi_Okubo_4.jpg"
+    }
+  },
+  {
+    "id": "person_j015",
+    "name": "伊藤博文",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q174971",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q174971",
+      "commonsFile": "ITŌ Hirobumi.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IT%C5%8C_Hirobumi.jpg"
+    }
+  },
+  {
+    "id": "person_j016",
+    "name": "板垣退助",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q456380",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q456380",
+      "commonsFile": "ITAGAKI Taisuke.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ITAGAKI_Taisuke.jpg"
+    }
+  },
+  {
+    "id": "person_w008",
+    "name": "ガリレオ・ガリレイ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q307",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q307",
+      "commonsFile": "Galileo.arp.300pix.jpg",
+      "license": "public domain",
+      "artist": "Justus Sustermans",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg"
+    }
+  },
+  {
+    "id": "person_w009",
+    "name": "ムハンマド",
+    "status": "NO_P18_IMAGE",
+    "detail": null,
+    "qid": "Q5837762",
+    "matchedOn": [
+      "name_exact_top1"
+    ]
+  },
+  {
+    "id": "person_w010",
+    "name": "マルティン・ルター",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9554",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9554",
+      "commonsFile": "Lucas Cranach d.Ä. - Martin Luther, 1528 (Veste Coburg).jpg",
+      "license": "public domain",
+      "artist": "Lucas Cranach the Elder",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg"
+    }
+  },
+  {
+    "id": "person_w011",
+    "name": "ジョン・F・ケネディ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9696",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9696",
+      "commonsFile": "John F. Kennedy, White House color photo portrait.jpg",
+      "license": "public domain",
+      "artist": "Cecil W. Stoughton",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg"
+    }
+  },
+  {
+    "id": "person_j017",
+    "name": "平清盛",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q281833",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q281833",
+      "commonsFile": "Taira no Kiyomori Portrait by Fujiwara Tamenobu and Takenobu.png",
+      "license": "public domain",
+      "artist": "Artist: Fujiwara Tamenobu (藤原為信 - ためのぶ) and Takenobu (豪信 たけのぶ) (both dates of birth and death unknown). Late Kamakura period.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Taira_no_Kiyomori_Portrait_by_Fujiwara_Tamenobu_and_Takenobu.png"
+    }
+  },
+  {
+    "id": "person_j018",
+    "name": "吉田松陰",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q559747",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q559747",
+      "commonsFile": "Yoshida Shoin.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yoshida_Shoin.jpg"
+    }
+  },
+  {
+    "id": "person_j019",
+    "name": "渋沢栄一",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q704995",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q704995",
+      "commonsFile": "Portrait of Shibusawa Eiichi.jpg",
+      "license": "public domain",
+      "artist": "Unknown photographer",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Shibusawa_Eiichi.jpg"
+    }
+  },
+  {
+    "id": "person_w012",
+    "name": "アレクサンドロス大王",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8409",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8409",
+      "commonsFile": "Alexander the Great mosaic (cropped).jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Alexander_the_Great_mosaic_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w013",
+    "name": "ジャンヌ・ダルク",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7226",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7226",
+      "commonsFile": "Joan of Arc miniature graded.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Joan_of_Arc_miniature_graded.jpg"
+    }
+  },
+  {
+    "id": "person_w014",
+    "name": "アルベルト・アインシュタイン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q937",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q937",
+      "commonsFile": "Einstein 1921 by F Schmutzer - restoration.jpg",
+      "license": "public domain",
+      "artist": "Ferdinand Schmutzer / Adam Cuerden",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+    }
+  },
+  {
+    "id": "person_w015",
+    "name": "マリー・キュリー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7186",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7186",
+      "commonsFile": "Marie Curie (1900) (cropped).jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marie_Curie_(1900)_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w016",
+    "name": "マーティン・ルーサー・キング",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8027",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8027",
+      "commonsFile": "Martin Luther King, Jr. and Lyndon Johnson (cropped).jpg",
+      "license": "public domain",
+      "artist": "Yoichi Okamoto",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_j020",
+    "name": "明智光秀",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q313320",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q313320",
+      "commonsFile": "Akechi Mitsuhide2.jpg",
+      "license": "public domain",
+      "artist": "投稿者がファイル作成",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Akechi_Mitsuhide2.jpg"
+    }
+  },
+  {
+    "id": "person_j021",
+    "name": "北条政子",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q463961",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q463961",
+      "commonsFile": "Hojo Masako.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hojo_Masako.jpg"
+    }
+  },
+  {
+    "id": "person_j022",
+    "name": "原敬",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q315553",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q315553",
+      "commonsFile": "Takashi Hara posing.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Takashi_Hara_posing.jpg"
+    }
+  },
+  {
+    "id": "person_w017",
+    "name": "ゴータマ・シッダルタ（お釈迦様）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w018",
+    "name": "秦の始皇帝",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w019",
+    "name": "諸葛亮孔明",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w020",
+    "name": "マンサ・ムーサ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q309333",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q309333",
+      "commonsFile": "Kanga Moussa Atlas Catalan.jpg",
+      "license": "public domain",
+      "artist": "Cresques Abraham",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kanga_Moussa_Atlas_Catalan.jpg"
+    }
+  },
+  {
+    "id": "person_w021",
+    "name": "フローレンス・ナイチンゲール",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q37103",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q37103",
+      "commonsFile": "Florence Nightingale (H Hering NPG x82368).jpg",
+      "license": "public domain",
+      "artist": "Henry Hering (1814-1893)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg"
+    }
+  },
+  {
+    "id": "person_j023",
+    "name": "天武天皇（大海人皇子）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_j024",
+    "name": "北条泰時",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1188359",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1188359",
+      "commonsFile": "Hōjō Yasutoki.jpg",
+      "license": "public domain",
+      "artist": "栗原信充(Kurihara Nobumitsu)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:H%C5%8Dj%C5%8D_Yasutoki.jpg"
+    }
+  },
+  {
+    "id": "person_j025",
+    "name": "足利尊氏",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q297107",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q297107",
+      "commonsFile": "Ashikaga Takauji Jōdo-ji.jpg",
+      "license": "public domain",
+      "artist": "Unknown artistUnknown artist",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ashikaga_Takauji_J%C5%8Ddo-ji.jpg"
+    }
+  },
+  {
+    "id": "person_j026",
+    "name": "上杉謙信",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q311080",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q311080",
+      "commonsFile": "Uesugi Kenshin Portrait from Uesugi Shrine.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Uesugi_Kenshin_Portrait_from_Uesugi_Shrine.png"
+    }
+  },
+  {
+    "id": "person_j027",
+    "name": "武田信玄",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q276404",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q276404",
+      "commonsFile": "Takeda Harunobu.jpg",
+      "license": "public domain",
+      "artist": "Unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Takeda_Harunobu.jpg"
+    }
+  },
+  {
+    "id": "person_j028",
+    "name": "田中正造",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5371149",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5371149",
+      "commonsFile": "Tanaka Shozo.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tanaka_Shozo.jpg"
+    }
+  },
+  {
+    "id": "person_w024",
+    "name": "カール大帝（シャルルマーニュ）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w025",
+    "name": "ホー・チ・ミン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q36014",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q36014",
+      "commonsFile": "Ho Chi Minh 1946.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_1946.jpg"
+    }
+  },
+  {
+    "id": "person_w022",
+    "name": "ジャワハルラール・ネルー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1047",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1047",
+      "commonsFile": "Jawaharlal Nehru, circa 1925.jpg",
+      "license": "public domain",
+      "artist": "Keystone View Company/FPG",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jawaharlal_Nehru,_circa_1925.jpg"
+    }
+  },
+  {
+    "id": "person_w023",
+    "name": "毛沢東",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5816",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5816",
+      "commonsFile": "Mao Tse Tung.jpg",
+      "license": "public domain",
+      "artist": "Chen Zhengqing (1917–1966)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mao_Tse_Tung.jpg"
+    }
+  },
+  {
+    "id": "person_w048",
+    "name": "ヴォルフガング・アマデウス・モーツァルト",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q254",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q254",
+      "commonsFile": "Wolfgang-amadeus-mozart 1.jpg",
+      "license": "public domain",
+      "artist": "Barbara Krafft",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wolfgang-amadeus-mozart_1.jpg"
+    }
+  },
+  {
+    "id": "person_w049",
+    "name": "ジュリアス・シーザー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1048",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1048",
+      "commonsFile": "Retrato de Julio César (26724093101) (cropped).jpg",
+      "license": "public domain",
+      "artist": "Ángel M. Felicísimo from Mérida, España",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w026",
+    "name": "クリストファー・コロンブス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7322",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7322",
+      "commonsFile": "Ridolfo del Ghirlandaio - Ritratto di Cristoforo Colombo (1520).jpg",
+      "license": "public domain",
+      "artist": "Ridolfo del Ghirlandaio",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ridolfo_del_Ghirlandaio_-_Ritratto_di_Cristoforo_Colombo_(1520).jpg"
+    }
+  },
+  {
+    "id": "person_w027",
+    "name": "ウィリアム・シェイクスピア",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q692",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q692",
+      "commonsFile": "Shakespeare.jpg",
+      "license": "public domain",
+      "artist": "Attributed to John Taylor",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shakespeare.jpg"
+    }
+  },
+  {
+    "id": "person_w028",
+    "name": "チャールズ・ダーウィン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1035",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1035",
+      "commonsFile": "Charles Darwin portrait.jpg",
+      "license": "public domain",
+      "artist": "Herbert Rose Barraud",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_portrait.jpg"
+    }
+  },
+  {
+    "id": "person_w029",
+    "name": "ルートヴィヒ・ヴァン・ベートーヴェン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q255",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q255",
+      "commonsFile": "Beethoven.jpg",
+      "license": "public domain",
+      "artist": "Joseph Karl Stieler",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Beethoven.jpg"
+    }
+  },
+  {
+    "id": "person_w030",
+    "name": "ニコラウス・コペルニクス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q619",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q619",
+      "commonsFile": "Nikolaus Kopernikus MOT.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg"
+    }
+  },
+  {
+    "id": "person_w031",
+    "name": "ジョージ・ワシントン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q23",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q23",
+      "commonsFile": "Gilbert Stuart Williamstown Portrait of George Washington.jpg",
+      "license": "public domain",
+      "artist": "Gilbert Stuart",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+    }
+  },
+  {
+    "id": "person_w032",
+    "name": "ネルソン・マンデラ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8023",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8023",
+      "commonsFile": "Nelson Mandela 1994.jpg",
+      "license": "cc by-sa 2.0",
+      "artist": "Kingkongphoto &amp; www.celebrity-photos.com from Laurel",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+    }
+  },
+  {
+    "id": "person_w033",
+    "name": "フランクリン・ルーズベルト",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8007",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8007",
+      "commonsFile": "FDR 1944 Color Portrait.jpg",
+      "license": "cc by 2.0",
+      "artist": "Leon Perskie",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:FDR_1944_Color_Portrait.jpg"
+    }
+  },
+  {
+    "id": "person_w034",
+    "name": "トーマス・エジソン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8743",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8743",
+      "commonsFile": "Thomas Edison2-crop.jpg",
+      "license": "public domain",
+      "artist": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2-crop.jpg"
+    }
+  },
+  {
+    "id": "person_w035",
+    "name": "ヨハネス・グーテンベルク",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8958",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8958",
+      "commonsFile": "Gutenberg.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gutenberg.jpg"
+    }
+  },
+  {
+    "id": "person_w036",
+    "name": "孔子",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q4604",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q4604",
+      "commonsFile": "Confucius, fresco from a Western Han tomb of Dongping County, Shandong province, China.jpg",
+      "license": "public domain",
+      "artist": "Anonymous Chinese painter of the Western Han period",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Confucius,_fresco_from_a_Western_Han_tomb_of_Dongping_County,_Shandong_province,_China.jpg"
+    }
+  },
+  {
+    "id": "person_w037",
+    "name": "アイザック・ニュートン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q935",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q935",
+      "commonsFile": "GodfreyKneller-IsaacNewton-1689.jpg",
+      "license": "public domain",
+      "artist": "James Thronill after Sir Godfrey Kneller",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg"
+    }
+  },
+  {
+    "id": "person_w038",
+    "name": "ヴォルテール",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9068",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9068",
+      "commonsFile": "Nicolas de Largillière - Portrait de Voltaire (1694-1778) en 1718 - P208 - Musée Carnavalet - 2.jpg",
+      "license": "cc0",
+      "artist": "Nicolas de Largillière",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_Mus%C3%A9e_Carnavalet_-_2.jpg"
+    }
+  },
+  {
+    "id": "person_w039",
+    "name": "チンギス・カン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q720",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q720",
+      "commonsFile": "YuanEmperorAlbumGenghisPortrait.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg"
+    }
+  },
+  {
+    "id": "person_w040",
+    "name": "エリザベス1世",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7207",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7207",
+      "commonsFile": "Darnley stage 3.jpg",
+      "license": "public domain",
+      "artist": "Unidentified painter",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Darnley_stage_3.jpg"
+    }
+  },
+  {
+    "id": "person_j029",
+    "name": "聖武天皇",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q349263",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q349263",
+      "commonsFile": "Emperor Shomu.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Shomu.jpg"
+    }
+  },
+  {
+    "id": "person_j030",
+    "name": "葛飾北斎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5586",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5586",
+      "commonsFile": "Hokusai as an old man.jpg",
+      "license": "cc0",
+      "artist": "missing name",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hokusai_as_an_old_man.jpg"
+    }
+  },
+  {
+    "id": "person_j031",
+    "name": "千利休",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q305477",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q305477",
+      "commonsFile": "Sen no Rikyu JPN.jpg",
+      "license": "public domain",
+      "artist": "painted by 長谷川等伯, calligraphy by 春屋宗園",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sen_no_Rikyu_JPN.jpg"
+    }
+  },
+  {
+    "id": "person_j032",
+    "name": "松尾芭蕉",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5676",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5676",
+      "commonsFile": "Basho by Buson.jpg",
+      "license": "public domain",
+      "artist": "unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Basho_by_Buson.jpg"
+    }
+  },
+  {
+    "id": "person_j033",
+    "name": "空海（弘法大師）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_j034",
+    "name": "樋口一葉",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q237948",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q237948",
+      "commonsFile": "Higuchi Ichiyou.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Higuchi_Ichiyou.png"
+    }
+  },
+  {
+    "id": "person_j035",
+    "name": "杉田玄白",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1385286",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1385286",
+      "commonsFile": "Sugita Genpaku.jpg",
+      "license": "public domain",
+      "artist": "Ishikawa Tairō",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sugita_Genpaku.jpg"
+    }
+  },
+  {
+    "id": "person_j036",
+    "name": "宮沢賢治",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q55993",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q55993",
+      "commonsFile": "Miyazawa Kenji.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Miyazawa_Kenji.jpg"
+    }
+  },
+  {
+    "id": "person_j037",
+    "name": "山上憶良",
+    "status": "NO_P18_IMAGE",
+    "detail": null,
+    "qid": "Q1273642",
+    "matchedOn": [
+      "birth",
+      "death"
+    ]
+  },
+  {
+    "id": "person_j038",
+    "name": "与謝野晶子",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q464104",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q464104",
+      "commonsFile": "YOSANO Akiko.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:YOSANO_Akiko.jpg"
+    }
+  },
+  {
+    "id": "person_j039",
+    "name": "手塚治虫",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q193300",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q193300",
+      "commonsFile": "Osamu Tezuka 1951 Scan10008-2.JPG",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Osamu_Tezuka_1951_Scan10008-2.JPG"
+    }
+  },
+  {
+    "id": "person_j040",
+    "name": "田中耕一",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q110963",
+    "matchedOn": [
+      "birth"
+    ],
+    "credit": {
+      "wikidataQid": "Q110963",
+      "commonsFile": "Koichi Tanaka 2020.jpg",
+      "license": "cc by 4.0",
+      "artist": "日本学士院",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Koichi_Tanaka_2020.jpg"
+    }
+  },
+  {
+    "id": "person_j041",
+    "name": "伊能忠敬",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1240937",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1240937",
+      "commonsFile": "Ino Tadataka.jpg",
+      "license": "public domain",
+      "artist": "Aoki Katsujirō",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ino_Tadataka.jpg"
+    }
+  },
+  {
+    "id": "person_j042",
+    "name": "福沢諭吉",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q355447",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q355447",
+      "commonsFile": "Fukuzawa Yukichi 1891.jpg",
+      "license": "public domain",
+      "artist": "Fukuzawa Research Center",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fukuzawa_Yukichi_1891.jpg"
+    }
+  },
+  {
+    "id": "person_j043",
+    "name": "夏目漱石",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q180903",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q180903",
+      "commonsFile": "Natsume Soseki photo.jpg",
+      "license": "public domain",
+      "artist": "Ogawa Kazumasa",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Natsume_Soseki_photo.jpg"
+    }
+  },
+  {
+    "id": "person_j044",
+    "name": "湯川秀樹",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q155777",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q155777",
+      "commonsFile": "Yukawa.jpg",
+      "license": "public domain",
+      "artist": "Nobel Foundation archive",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yukawa.jpg"
+    }
+  },
+  {
+    "id": "person_j045",
+    "name": "緒方洪庵",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1187045",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1187045",
+      "commonsFile": "Koan Ogata 1901.jpg",
+      "license": "public domain",
+      "artist": "Painted by Goseda Yoshimatsu",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Koan_Ogata_1901.jpg"
+    }
+  },
+  {
+    "id": "person_j046",
+    "name": "徳川慶喜",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q287657",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q287657",
+      "commonsFile": "1867 Osaka Yoshinobu Tokugawa.jpg",
+      "license": "public domain",
+      "artist": "Frederick Sutton",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:1867_Osaka_Yoshinobu_Tokugawa.jpg"
+    }
+  },
+  {
+    "id": "person_j047",
+    "name": "野口英世",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q356114",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q356114",
+      "commonsFile": "Noguchi Hideyo.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Noguchi_Hideyo.jpg"
+    }
+  },
+  {
+    "id": "person_j048",
+    "name": "津田梅子",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q514524",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q514524",
+      "commonsFile": "Tsuda Umeko Portrait c1900.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tsuda_Umeko_Portrait_c1900.png"
+    }
+  },
+  {
+    "id": "person_j049",
+    "name": "黒澤明",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8006",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8006",
+      "commonsFile": "Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
+      "license": "public domain",
+      "artist": "映画の友 (Eiga no tomo)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg"
+    }
+  },
+  {
+    "id": "person_j050",
+    "name": "杉原千畝",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q161381",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q161381",
+      "commonsFile": "Sugihara b.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sugihara_b.jpg"
+    }
+  },
+  {
+    "id": "person_j051",
+    "name": "大岡忠相",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1054143",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1054143",
+      "commonsFile": "Oooka tadasuke.jpg",
+      "license": "public domain",
+      "artist": "不詳",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Oooka_tadasuke.jpg"
+    }
+  },
+  {
+    "id": "person_j052",
+    "name": "本居宣長",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q384647",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q384647",
+      "commonsFile": "Motoori Norinaga self portrait.jpg",
+      "license": "public domain",
+      "artist": "Motoori Norinaga",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Motoori_Norinaga_self_portrait.jpg"
+    }
+  },
+  {
+    "id": "person_j053",
+    "name": "川端康成",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q43736",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q43736",
+      "commonsFile": "Yasunari Kawabata 1938.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yasunari_Kawabata_1938.jpg"
+    }
+  },
+  {
+    "id": "person_w041",
+    "name": "カール・マルクス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9061",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9061",
+      "commonsFile": "Karl Marx 001 restored.jpg",
+      "license": "public domain",
+      "artist": "John Jabez Edwin Mayall",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Karl_Marx_001_restored.jpg"
+    }
+  },
+  {
+    "id": "person_w042",
+    "name": "アドルフ・ヒトラー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q352",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q352",
+      "commonsFile": "Adolf Hitler cropped restored 3x4.jpg",
+      "license": "cc by-sa 3.0 de",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_cropped_restored_3x4.jpg"
+    }
+  },
+  {
+    "id": "person_w043",
+    "name": "テレサ修道女（マザー・テレサ）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w044",
+    "name": "ジークムント・フロイト",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9215",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9215",
+      "commonsFile": "Sigmund Freud, by Max Halberstadt (cropped).jpg",
+      "license": "public domain",
+      "artist": "Max Halberstadt",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w045",
+    "name": "イサベル1世（カスティーリャ女王）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w046",
+    "name": "ソクラテス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q913",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q913",
+      "commonsFile": "Socrates Louvre.jpg",
+      "license": "public domain",
+      "artist": "Copy of Lysippos (?)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+    }
+  },
+  {
+    "id": "person_w047",
+    "name": "アントニー・ファン・レーウェンフック",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q43522",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q43522",
+      "commonsFile": "Portret van Antonie van Leeuwenhoek, RP-P-1903-A-23563.jpg",
+      "license": "cc0",
+      "artist": "Rijksmuseum",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_Antonie_van_Leeuwenhoek,_RP-P-1903-A-23563.jpg"
+    }
+  },
+  {
+    "id": "person_j055",
+    "name": "藤原道長",
+    "status": "LICENSE_REJECTED",
+    "detail": "copyrighted free use",
+    "qid": "Q433133",
+    "matchedOn": [
+      "birth",
+      "death"
+    ]
+  },
+  {
+    "id": "person_j056",
+    "name": "菅原道真",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q382005",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q382005",
+      "commonsFile": "束帯天神像.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%9F%E5%B8%AF%E5%A4%A9%E7%A5%9E%E5%83%8F.png"
+    }
+  },
+  {
+    "id": "person_j057",
+    "name": "清少納言",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q231603",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q231603",
+      "commonsFile": "Sei Shonagon2.jpg",
+      "license": "public domain",
+      "artist": "土佐光起 (Tosa Mitsuoki)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Sei_Shonagon2.jpg"
+    }
+  },
+  {
+    "id": "person_j058",
+    "name": "一休宗純",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q467613",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q467613",
+      "commonsFile": "Portrait of Ikkyū by Bokusai.jpg",
+      "license": "public domain",
+      "artist": "Bokusai",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ikky%C5%AB_by_Bokusai.jpg"
+    }
+  },
+  {
+    "id": "person_j059",
+    "name": "雪舟",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q48514",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q48514",
+      "commonsFile": "Portrait of Sesshu.jpg",
+      "license": "public domain",
+      "artist": "不詳　unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sesshu.jpg"
+    }
+  },
+  {
+    "id": "person_j060",
+    "name": "伊達政宗",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q311183",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q311183",
+      "commonsFile": "Date Masamune02.jpg",
+      "license": "public domain",
+      "artist": "Tosa Mitsusada",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Date_Masamune02.jpg"
+    }
+  },
+  {
+    "id": "person_j061",
+    "name": "真田幸村（信繁）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_j062",
+    "name": "前田利家",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1196817",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1196817",
+      "commonsFile": "Maeda Toshiie.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Maeda_Toshiie.jpg"
+    }
+  },
+  {
+    "id": "person_j063",
+    "name": "石田三成",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q334107",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q334107",
+      "commonsFile": "Ishida Mitsunari.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ishida_Mitsunari.jpg"
+    }
+  },
+  {
+    "id": "person_j064",
+    "name": "毛利元就",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1156545",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1156545",
+      "commonsFile": "Mori Motonari.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mori_Motonari.jpg"
+    }
+  },
+  {
+    "id": "person_j065",
+    "name": "楠木正成",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q382234",
+    "matchedOn": [
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q382234",
+      "commonsFile": "Kusunoki Masashige.jpg",
+      "license": "public domain",
+      "artist": "Kanō Sanraku",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kusunoki_Masashige.jpg"
+    }
+  },
+  {
+    "id": "person_j066",
+    "name": "足利義満",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q248381",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q248381",
+      "commonsFile": "Yoshimitsu Ashikaga cropped.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yoshimitsu_Ashikaga_cropped.jpg"
+    }
+  },
+  {
+    "id": "person_j067",
+    "name": "後醍醐天皇",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q313942",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q313942",
+      "commonsFile": "Emperor Godaigo by Monkan-bō Kōshin.jpg",
+      "license": "public domain",
+      "artist": "Monkan-bō Kōshin",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Godaigo_by_Monkan-b%C5%8D_K%C5%8Dshin.jpg"
+    }
+  },
+  {
+    "id": "person_j068",
+    "name": "白河法皇",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q60949",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q60949",
+      "commonsFile": "Emperor Shirakawa.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Shirakawa.jpg"
+    }
+  },
+  {
+    "id": "person_j069",
+    "name": "最澄",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q449943",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q449943",
+      "commonsFile": "最澄像 一乗寺蔵 平安時代.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E6%9C%80%E6%BE%84%E5%83%8F_%E4%B8%80%E4%B9%97%E5%AF%BA%E8%94%B5_%E5%B9%B3%E5%AE%89%E6%99%82%E4%BB%A3.jpg"
+    }
+  },
+  {
+    "id": "person_j070",
+    "name": "行基",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1136664",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1136664",
+      "commonsFile": "Gyouki 1.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "INOMANARI",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gyouki_1.jpg"
+    }
+  },
+  {
+    "id": "person_j071",
+    "name": "桓武天皇",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q314846",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q314846",
+      "commonsFile": "Emperor Kammu large.jpg",
+      "license": "public domain",
+      "artist": "Unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Kammu_large.jpg"
+    }
+  },
+  {
+    "id": "person_j072",
+    "name": "藤原良房",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q960841",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q960841",
+      "commonsFile": "Fujiwara no Yoshifusa.jpg",
+      "license": "public domain",
+      "artist": "Kikuchi Yōsai",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fujiwara_no_Yoshifusa.jpg"
+    }
+  },
+  {
+    "id": "person_j073",
+    "name": "在原業平",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q451991",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q451991",
+      "commonsFile": "Ariwara no Narihira.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ariwara_no_Narihira.jpg"
+    }
+  },
+  {
+    "id": "person_j074",
+    "name": "藤原定家",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q378425",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q378425",
+      "commonsFile": "Teika(3).jpg",
+      "license": "public domain",
+      "artist": "Fujiwara no Nobuzane",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Teika(3).jpg"
+    }
+  },
+  {
+    "id": "person_j075",
+    "name": "西行",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q224689",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q224689",
+      "commonsFile": "Hyakuninisshu 086.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hyakuninisshu_086.jpg"
+    }
+  },
+  {
+    "id": "person_j076",
+    "name": "鴨長明",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q291329",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q291329",
+      "commonsFile": "Kamo no Chomei.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kamo_no_Chomei.jpg"
+    }
+  },
+  {
+    "id": "person_j077",
+    "name": "吉田兼好",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q372772",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q372772",
+      "commonsFile": "Yoshida Kenko.jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yoshida_Kenko.jpg"
+    }
+  },
+  {
+    "id": "person_j078",
+    "name": "北条時宗",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q430964",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q430964",
+      "commonsFile": "Hōjō Tokimune.jpg",
+      "license": "public domain",
+      "artist": "Unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:H%C5%8Dj%C5%8D_Tokimune.jpg"
+    }
+  },
+  {
+    "id": "person_j079",
+    "name": "太田道灌",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q386144",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q386144",
+      "commonsFile": "Outa Doukan.jpg",
+      "license": "public domain",
+      "artist": "Ōta Sukenobu",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Outa_Doukan.jpg"
+    }
+  },
+  {
+    "id": "person_j080",
+    "name": "今川義元",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1054305",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1054305",
+      "commonsFile": "Imagawa-Yoshimoto-Ukiyo-e.jpg",
+      "license": "public domain",
+      "artist": "Utagawa Kuniyoshi",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Imagawa-Yoshimoto-Ukiyo-e.jpg"
+    }
+  },
+  {
+    "id": "person_j081",
+    "name": "柴田勝家",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q707587",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q707587",
+      "commonsFile": "Shibata katsuie.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shibata_katsuie.png"
+    }
+  },
+  {
+    "id": "person_j082",
+    "name": "黒田官兵衛（如水）",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_j083",
+    "name": "加藤清正",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1069843",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1069843",
+      "commonsFile": "Katō Kiyomasa.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kat%C5%8D_Kiyomasa.jpg"
+    }
+  },
+  {
+    "id": "person_j084",
+    "name": "島津義弘",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1156288",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1156288",
+      "commonsFile": "Shimazu Yoshihiro.jpg",
+      "license": "public domain",
+      "artist": "不明。",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shimazu_Yoshihiro.jpg"
+    }
+  },
+  {
+    "id": "person_j085",
+    "name": "長宗我部元親",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1070082",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1070082",
+      "commonsFile": "Tyousokabe Mototika.jpg",
+      "license": "public domain",
+      "artist": "不明。",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tyousokabe_Mototika.jpg"
+    }
+  },
+  {
+    "id": "person_j086",
+    "name": "徳川秀忠",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q314464",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q314464",
+      "commonsFile": "Hidetada2.jpg",
+      "license": "public domain",
+      "artist": "The author creates a file.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hidetada2.jpg"
+    }
+  },
+  {
+    "id": "person_j087",
+    "name": "徳川家光",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q314481",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q314481",
+      "commonsFile": "Iemitu.jpg",
+      "license": "public domain",
+      "artist": "The author creates a file.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Iemitu.jpg"
+    }
+  },
+  {
+    "id": "person_j088",
+    "name": "徳川吉宗",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q319664",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q319664",
+      "commonsFile": "Tokugawa Yoshimune.jpg",
+      "license": "public domain",
+      "artist": "Kanō Tadanobu",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tokugawa_Yoshimune.jpg"
+    }
+  },
+  {
+    "id": "person_j089",
+    "name": "田沼意次",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q521070",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q521070",
+      "commonsFile": "Tanuma Okitsugu2.jpg",
+      "license": "public domain",
+      "artist": "鈴木白華",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tanuma_Okitsugu2.jpg"
+    }
+  },
+  {
+    "id": "person_j090",
+    "name": "松平定信",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q284038",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q284038",
+      "commonsFile": "Matsudaira Sadanobu.jpg",
+      "license": "public domain",
+      "artist": "松平定信（自画像）",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Matsudaira_Sadanobu.jpg"
+    }
+  },
+  {
+    "id": "person_j091",
+    "name": "水野忠邦",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q2975848",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q2975848",
+      "commonsFile": "Mizuno Tadakuni.jpg",
+      "license": "public domain",
+      "artist": "椿　椿山",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mizuno_Tadakuni.jpg"
+    }
+  },
+  {
+    "id": "person_j092",
+    "name": "岩崎弥太郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q380105",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q380105",
+      "commonsFile": "Yataro Iwasaki Portrait Closeup 1874.png",
+      "license": "public domain",
+      "artist": "Unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yataro_Iwasaki_Portrait_Closeup_1874.png"
+    }
+  },
+  {
+    "id": "person_j093",
+    "name": "新渡戸稲造",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q12696",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q12696",
+      "commonsFile": "Monsieur Inazō Nitobe.jpg",
+      "license": "public domain",
+      "artist": "Auguste Léon",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Monsieur_Inaz%C5%8D_Nitobe.jpg"
+    }
+  },
+  {
+    "id": "person_j094",
+    "name": "内村鑑三",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q485247",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q485247",
+      "commonsFile": "Uchimura Kanzo.jpg",
+      "license": "public domain",
+      "artist": "益本重雄, 藤沢音吉",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Uchimura_Kanzo.jpg"
+    }
+  },
+  {
+    "id": "person_j054",
+    "name": "推古天皇",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q298057",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q298057",
+      "commonsFile": "Empress Suiko painting.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Empress_Suiko_painting.png"
+    }
+  },
+  {
+    "id": "person_j095",
+    "name": "森鴎外",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q356960",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q356960",
+      "commonsFile": "Mori Ogai in the atelier of Sculptor Takeishi Kozaburo in 1916.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mori_Ogai_in_the_atelier_of_Sculptor_Takeishi_Kozaburo_in_1916.jpg"
+    }
+  },
+  {
+    "id": "person_j096",
+    "name": "正岡子規",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q315152",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q315152",
+      "commonsFile": "Shiki Masaoka.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shiki_Masaoka.jpg"
+    }
+  },
+  {
+    "id": "person_j097",
+    "name": "石川啄木",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q467747",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q467747",
+      "commonsFile": "Takuboku Ishikawa.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Takuboku_Ishikawa.jpg"
+    }
+  },
+  {
+    "id": "person_j098",
+    "name": "高村光太郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1646239",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1646239",
+      "commonsFile": "高村光太郎.jpg",
+      "license": "public domain",
+      "artist": "http://kajipon.com/",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E6%9D%91%E5%85%89%E5%A4%AA%E9%83%8E.jpg"
+    }
+  },
+  {
+    "id": "person_j099",
+    "name": "柳宗悦",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q904161",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q904161",
+      "commonsFile": "Soetsu.JPG",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Soetsu.JPG"
+    }
+  },
+  {
+    "id": "person_j100",
+    "name": "長谷川町子",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q265148",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q265148",
+      "commonsFile": "Hasegawa-Machiko-1.jpg",
+      "license": "public domain",
+      "artist": "産業経済新聞社（Sankei Shinbun Co., Ltd.）",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hasegawa-Machiko-1.jpg"
+    }
+  },
+  {
+    "id": "person_j101",
+    "name": "宮崎駿",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q55400",
+    "matchedOn": [
+      "birth"
+    ],
+    "credit": {
+      "wikidataQid": "Q55400",
+      "commonsFile": "HayaoMiyazakiCCJuly09.jpg",
+      "license": "cc by 2.0",
+      "artist": "Natasha Baucas at https://www.flickr.com/photos/sdnatasha/",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg"
+    }
+  },
+  {
+    "id": "person_j102",
+    "name": "松下幸之助",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q252785",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q252785",
+      "commonsFile": "Konosuke Matsushita 01.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Konosuke_Matsushita_01.jpg"
+    }
+  },
+  {
+    "id": "person_j103",
+    "name": "本田宗一郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q313304",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q313304",
+      "commonsFile": "Honda Souichiro zaikai 1964.jpg",
+      "license": "public domain",
+      "artist": "財界研究社、撮影者不明",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Honda_Souichiro_zaikai_1964.jpg"
+    }
+  },
+  {
+    "id": "person_j104",
+    "name": "盛田昭夫",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q310845",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q310845",
+      "commonsFile": "Morita Akio.jpg",
+      "license": "public domain",
+      "artist": "プレジデント社　撮影者不明",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Morita_Akio.jpg"
+    }
+  },
+  {
+    "id": "person_j105",
+    "name": "稲盛和夫",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q982623",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q982623",
+      "commonsFile": "Kazuo Inamori 2011 Heritage Day HD2011-71.JPG",
+      "license": "cc by-sa 3.0",
+      "artist": "Conrad Erb",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kazuo_Inamori_2011_Heritage_Day_HD2011-71.JPG"
+    }
+  },
+  {
+    "id": "person_j106",
+    "name": "吉田茂",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q301804",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q301804",
+      "commonsFile": "Shigeru Yoshida suit.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shigeru_Yoshida_suit.jpg"
+    }
+  },
+  {
+    "id": "person_j107",
+    "name": "池田勇人",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q299142",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q299142",
+      "commonsFile": "JFKWHP-KN-C18157 in Hayato Ikeda (cropped).jpg",
+      "license": "public domain",
+      "artist": "Robert LeRoy Knudsen",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:JFKWHP-KN-C18157_in_Hayato_Ikeda_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_j108",
+    "name": "田中角栄",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q297644",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q297644",
+      "commonsFile": "Kakuei Tanaka 19720707.jpg",
+      "license": "cc by 4.0",
+      "artist": "内閣官房内閣広報室",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kakuei_Tanaka_19720707.jpg"
+    }
+  },
+  {
+    "id": "person_j109",
+    "name": "山本五十六",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q152325",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q152325",
+      "commonsFile": "Yamamoto-Isoroku.jpg",
+      "license": "public domain",
+      "artist": "The Advance in Nippon 画報 躍進之日本 (Gaho Yakushin no Nihon)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yamamoto-Isoroku.jpg"
+    }
+  },
+  {
+    "id": "person_j110",
+    "name": "東郷平八郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q296785",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q296785",
+      "commonsFile": "Tōgō Heihachirō.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:T%C5%8Dg%C5%8D_Heihachir%C5%8D.jpg"
+    }
+  },
+  {
+    "id": "person_j111",
+    "name": "乃木希典",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q468122",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q468122",
+      "commonsFile": "Maresuke Nogi, 近世名士写真 其1 - Photo only.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author - restored by User:Adam Cuerden",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Maresuke_Nogi,_%E8%BF%91%E4%B8%96%E5%90%8D%E5%A3%AB%E5%86%99%E7%9C%9F_%E5%85%B61_-_Photo_only.jpg"
+    }
+  },
+  {
+    "id": "person_j112",
+    "name": "大山巌",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q359819",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q359819",
+      "commonsFile": "Iwao Oyama 2.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Iwao_Oyama_2.jpg"
+    }
+  },
+  {
+    "id": "person_j113",
+    "name": "岩倉具視",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q428200",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q428200",
+      "commonsFile": "IWAKURA Tomomi.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:IWAKURA_Tomomi.jpg"
+    }
+  },
+  {
+    "id": "person_j114",
+    "name": "木戸孝允",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q696402",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q696402",
+      "commonsFile": "Kido Takayoshi 1869.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kido_Takayoshi_1869.jpg"
+    }
+  },
+  {
+    "id": "person_j115",
+    "name": "山縣有朋",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q297636",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q297636",
+      "commonsFile": "Yamagata Aritomo.jpg",
+      "license": "public domain",
+      "artist": "Unknown photographer",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yamagata_Aritomo.jpg"
+    }
+  },
+  {
+    "id": "person_j116",
+    "name": "鑑真",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q714061",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q714061",
+      "commonsFile": "Ganjin wajyo portrait.JPG",
+      "license": "public domain",
+      "artist": "OGAWA SEIYOU(1894-1960) a famous  photographer in Japan}",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ganjin_wajyo_portrait.JPG"
+    }
+  },
+  {
+    "id": "person_j117",
+    "name": "道元",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q318064",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q318064",
+      "commonsFile": "Dogen.jpg",
+      "license": "public domain",
+      "artist": "Shii",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dogen.jpg"
+    }
+  },
+  {
+    "id": "person_j118",
+    "name": "日蓮",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q311478",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q311478",
+      "commonsFile": "Nichiren statue Japan.jpg",
+      "license": "cc by 2.0",
+      "artist": "Chris Gladis from Kyoto, Japan",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nichiren_statue_Japan.jpg"
+    }
+  },
+  {
+    "id": "person_j119",
+    "name": "親鸞",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q512934",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q512934",
+      "commonsFile": "ShinranShonin.png",
+      "license": "public domain",
+      "artist": "Kosigrim at English Wikipedia",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ShinranShonin.png"
+    }
+  },
+  {
+    "id": "person_j120",
+    "name": "法然",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q507980",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q507980",
+      "commonsFile": "Takanobu-no-miei.jpg",
+      "license": "public domain",
+      "artist": "Fujiwara, Takanobu (1142-1205)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Takanobu-no-miei.jpg"
+    }
+  },
+  {
+    "id": "person_j121",
+    "name": "歌川広重",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q200798",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q200798",
+      "commonsFile": "Memorial Portrait of Hiroshige, by Kunisada.jpg",
+      "license": "cc0",
+      "artist": "Utagawa Kunisada",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Portrait_of_Hiroshige,_by_Kunisada.jpg"
+    }
+  },
+  {
+    "id": "person_j122",
+    "name": "喜多川歌麿",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q272045",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q272045",
+      "commonsFile": "Kitagawa Utamaro portrait (cropped).jpg",
+      "license": "public domain",
+      "artist": "attributed to Chōbunsai Eishi (1756 - 1829)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kitagawa_Utamaro_portrait_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_j123",
+    "name": "近松門左衛門",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q324986",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q324986",
+      "commonsFile": "Chikamatsu2.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chikamatsu2.jpg"
+    }
+  },
+  {
+    "id": "person_j124",
+    "name": "小林一茶",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q312709",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q312709",
+      "commonsFile": "Kobayashi Issa-Portrait.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "Yoshi Canopus",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kobayashi_Issa-Portrait.jpg"
+    }
+  },
+  {
+    "id": "person_j125",
+    "name": "岡倉天心",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q942995",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q942995",
+      "commonsFile": "Okakura Kakuzo Portrait c1905.png",
+      "license": "public domain",
+      "artist": "Unknown",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Okakura_Kakuzo_Portrait_c1905.png"
+    }
+  },
+  {
+    "id": "person_j126",
+    "name": "横山大観",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q2034441",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q2034441",
+      "commonsFile": "Yokoyama Taikan.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yokoyama_Taikan.jpg"
+    }
+  },
+  {
+    "id": "person_j127",
+    "name": "岡本太郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q983942",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q983942",
+      "commonsFile": "Tarō Okamoto.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tar%C5%8D_Okamoto.jpg"
+    }
+  },
+  {
+    "id": "person_j128",
+    "name": "上村松園",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q275018",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q275018",
+      "commonsFile": "Uemura Shoen.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Uemura_Shoen.png"
+    }
+  },
+  {
+    "id": "person_j129",
+    "name": "鈴木大拙",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q44847",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q44847",
+      "commonsFile": "Daisetsu Teitarō Suzuki photographed by Shigeru Tamura.jpg",
+      "license": "public domain",
+      "artist": "Shigeru Tamura",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Daisetsu_Teitar%C5%8D_Suzuki_photographed_by_Shigeru_Tamura.jpg"
+    }
+  },
+  {
+    "id": "person_j130",
+    "name": "南方熊楠",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q6862791",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q6862791",
+      "commonsFile": "Minakata Kumagusu.JPG",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Minakata_Kumagusu.JPG"
+    }
+  },
+  {
+    "id": "person_j131",
+    "name": "柳田国男",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q971687",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q971687",
+      "commonsFile": "Kunio Yanagita.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kunio_Yanagita.jpg"
+    }
+  },
+  {
+    "id": "person_j132",
+    "name": "西田幾多郎",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q45125",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q45125",
+      "commonsFile": "Portrait-of-Kitaro-Nishida.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait-of-Kitaro-Nishida.png"
+    }
+  },
+  {
+    "id": "person_j133",
+    "name": "折口信夫",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q3482286",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q3482286",
+      "commonsFile": "Orikuchi.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Orikuchi.jpg"
+    }
+  },
+  {
+    "id": "person_j134",
+    "name": "大石内蔵助",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q530128",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q530128",
+      "commonsFile": "Ōishi Yoshio.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%C5%8Cishi_Yoshio.jpg"
+    }
+  },
+  {
+    "id": "person_j135",
+    "name": "徳川綱吉",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q313745",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q313745",
+      "commonsFile": "Tsunyaoshi.jpg",
+      "license": "public domain",
+      "artist": "Tosa Mitsuoki",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tsunyaoshi.jpg"
+    }
+  },
+  {
+    "id": "person_j136",
+    "name": "徳川光圀",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1194944",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1194944",
+      "commonsFile": "Tokugawa Mitsukuni.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tokugawa_Mitsukuni.jpg"
+    }
+  },
+  {
+    "id": "person_j137",
+    "name": "山鹿素行",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1095270",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1095270",
+      "commonsFile": "Yagama Sokou.jpg",
+      "license": "public domain",
+      "artist": "不明。",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yagama_Sokou.jpg"
+    }
+  },
+  {
+    "id": "person_j138",
+    "name": "荻生徂徠",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q369158",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q369158",
+      "commonsFile": "Ogyuh Sorai.jpg",
+      "license": "public domain",
+      "artist": "有朋堂書店",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ogyuh_Sorai.jpg"
+    }
+  },
+  {
+    "id": "person_j139",
+    "name": "新井白石",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q467616",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q467616",
+      "commonsFile": "Arai Hakuseki - Japanischer Gelehrter.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Arai_Hakuseki_-_Japanischer_Gelehrter.jpg"
+    }
+  },
+  {
+    "id": "person_j140",
+    "name": "平賀源内",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q968242",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q968242",
+      "commonsFile": "A Portrait of Kyūkei Hiraga.jpg",
+      "license": "public domain",
+      "artist": "木村黙老 / Momuō Kimura",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:A_Portrait_of_Ky%C5%ABkei_Hiraga.jpg"
+    }
+  },
+  {
+    "id": "person_j141",
+    "name": "高野長英",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q944693",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q944693",
+      "commonsFile": "Takano Choei.jpg",
+      "license": "public domain",
+      "artist": "Painting: Tsubaki Chinzan (1801-1854)Reproduction: User:Iwatebud",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Takano_Choei.jpg"
+    }
+  },
+  {
+    "id": "person_j142",
+    "name": "佐久間象山",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q739298",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q739298",
+      "commonsFile": "SakumaShozan.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SakumaShozan.jpg"
+    }
+  },
+  {
+    "id": "person_j143",
+    "name": "陸奥宗光",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q704098",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q704098",
+      "commonsFile": "Mutsu Munemitsu.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Mutsu_Munemitsu.jpg"
+    }
+  },
+  {
+    "id": "person_j144",
+    "name": "島崎藤村",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1093783",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1093783",
+      "commonsFile": "Shimazaki Toson2.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Shimazaki_Toson2.jpg"
+    }
+  },
+  {
+    "id": "person_j145",
+    "name": "新田義貞",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1328796",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1328796",
+      "commonsFile": "Nitta Yoshisada.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nitta_Yoshisada.jpg"
+    }
+  },
+  {
+    "id": "person_j146",
+    "name": "足利義政",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q447034",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q447034",
+      "commonsFile": "Ashikaga Yoshimasa.jpg",
+      "license": "public domain",
+      "artist": "Attributed to Tosa Mitsunobu",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ashikaga_Yoshimasa.jpg"
+    }
+  },
+  {
+    "id": "person_j147",
+    "name": "一条天皇",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q449540",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q449540",
+      "commonsFile": "Tennō Ichijō.jpg",
+      "license": "public domain",
+      "artist": "Uploader: User:Evening.star",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tenn%C5%8D_Ichij%C5%8D.jpg"
+    }
+  },
+  {
+    "id": "person_j148",
+    "name": "上泉信綱",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1375744",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1375744",
+      "commonsFile": "Kamiizumi-Isenokami-Hidetsuna-(Kamiizumi-Nobutsuna).png",
+      "license": "public domain",
+      "artist": "Unknown, before 1572",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kamiizumi-Isenokami-Hidetsuna-(Kamiizumi-Nobutsuna).png"
+    }
+  },
+  {
+    "id": "person_j149",
+    "name": "柳生宗矩",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q631099",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q631099",
+      "commonsFile": "Yagyu Munenori.jpg",
+      "license": "public domain",
+      "artist": "Hisane",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yagyu_Munenori.jpg"
+    }
+  },
+  {
+    "id": "person_j150",
+    "name": "鍋島直茂",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1039095",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1039095",
+      "commonsFile": "Nabeshima Naoshige by Miura Shisan (Chokokan) (detail).jpg",
+      "license": "public domain",
+      "artist": "Miura Shisan 三浦子サン (?–1794)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Nabeshima_Naoshige_by_Miura_Shisan_(Chokokan)_(detail).jpg"
+    }
+  },
+  {
+    "id": "person_j151",
+    "name": "荒木又右衛門",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q4783833",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q4783833",
+      "commonsFile": "Araki Mataemon 荒木 又右衛門 (BM 2008,3037.00101).jpg",
+      "license": "public domain",
+      "artist": "Print artist:   Utagawa Kuniyoshi (歌川国芳)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Araki_Mataemon_%E8%8D%92%E6%9C%A8_%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80_(BM_2008,3037.00101).jpg"
+    }
+  },
+  {
+    "id": "person_j152",
+    "name": "北畠顕家",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1036864",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1036864",
+      "commonsFile": "北畠顕家.png",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E7%95%A0%E9%A1%95%E5%AE%B6.png"
+    }
+  },
+  {
+    "id": "person_j153",
+    "name": "尾崎行雄",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1152666",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1152666",
+      "commonsFile": "Yukio Ozaki.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Yukio_Ozaki.jpg"
+    }
+  },
+  {
+    "id": "person_w050",
+    "name": "プラトン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q859",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q859",
+      "commonsFile": "Plato Silanion Musei Capitolini MC1377.jpg",
+      "license": "cc by 2.5",
+      "artist": "Marie-Lan Nguyen",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+    }
+  },
+  {
+    "id": "person_w051",
+    "name": "アリストテレス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q868",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q868",
+      "commonsFile": "Aristotle Altemps Inv8575.jpg",
+      "license": "public domain",
+      "artist": "After Lysippos",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+    }
+  },
+  {
+    "id": "person_w052",
+    "name": "ピタゴラス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q10261",
+    "matchedOn": [
+      "name_exact_top1"
+    ],
+    "credit": {
+      "wikidataQid": "Q10261",
+      "commonsFile": "Kapitolinischer Pythagoras.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "The original uploader was Galilea at German Wikipedia.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kapitolinischer_Pythagoras.jpg"
+    }
+  },
+  {
+    "id": "person_w053",
+    "name": "ヒポクラテス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5264",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5264",
+      "commonsFile": "Hippocrates rubens.jpg",
+      "license": "public domain",
+      "artist": "Paulus Pontius / After Peter Paul Rubens",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Hippocrates_rubens.jpg"
+    }
+  },
+  {
+    "id": "person_w054",
+    "name": "アルキメデス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8739",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8739",
+      "commonsFile": "Retrato de un erudito (¿Arquímedes?), por Domenico Fetti.jpg",
+      "license": "public domain",
+      "artist": "Domenico Fetti",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_un_erudito_(%C2%BFArqu%C3%ADmedes%3F),_por_Domenico_Fetti.jpg"
+    }
+  },
+  {
+    "id": "person_w055",
+    "name": "キケロ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1541",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1541",
+      "commonsFile": "Bust of Cicero (1st-cent. BC) - Palazzo Nuovo - Musei Capitolini - Rome 2016.jpg",
+      "license": "cc by-sa 4.0",
+      "artist": "José Luiz",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bust_of_Cicero_(1st-cent._BC)_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg"
+    }
+  },
+  {
+    "id": "person_w056",
+    "name": "マルクス・アウレリウス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1430",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1430",
+      "commonsFile": "Marcus Aurelius Louvre MR561 n02.jpg",
+      "license": "cc by 2.5",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Marcus_Aurelius_Louvre_MR561_n02.jpg"
+    }
+  },
+  {
+    "id": "person_w057",
+    "name": "アウグスティヌス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8018",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8018",
+      "commonsFile": "Saint Augustine by Philippe de Champaigne.jpg",
+      "license": "public domain",
+      "artist": "Philippe de Champaigne",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+    }
+  },
+  {
+    "id": "person_w058",
+    "name": "トマス・アクィナス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9438",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9438",
+      "commonsFile": "St-thomas-aquinasFXD.jpg",
+      "license": "public domain",
+      "artist": "Carlo Crivelli",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
+    }
+  },
+  {
+    "id": "person_w059",
+    "name": "ダンテ・アリギエーリ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1067",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1067",
+      "commonsFile": "Portrait de Dante.jpg",
+      "license": "public domain",
+      "artist": "Sandro Botticelli",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_Dante.jpg"
+    }
+  },
+  {
+    "id": "person_w060",
+    "name": "デジデリウス・エラスムス",
+    "status": "NO_YEAR_MATCH",
+    "detail": null
+  },
+  {
+    "id": "person_w061",
+    "name": "ミケランジェロ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5592",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5592",
+      "commonsFile": "Michelangelo Daniele da Volterra (dettaglio).jpg",
+      "license": "public domain",
+      "artist": "Attributed to Daniele da Volterra",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg"
+    }
+  },
+  {
+    "id": "person_w062",
+    "name": "ラファエロ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5597",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5597",
+      "commonsFile": "Raffaello Sanzio.jpg",
+      "license": "public domain",
+      "artist": "Raphael",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg"
+    }
+  },
+  {
+    "id": "person_w063",
+    "name": "ルネ・デカルト",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9191",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9191",
+      "commonsFile": "Frans Hals - Portret van René Descartes.jpg",
+      "license": "public domain",
+      "artist": "After Frans Hals",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+    }
+  },
+  {
+    "id": "person_w064",
+    "name": "バルーフ・スピノザ",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w065",
+    "name": "ゴットフリート・ライプニッツ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9047",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9047",
+      "commonsFile": "Christoph Bernhard Francke - Bildnis des Philosophen Leibniz (ca. 1695).jpg",
+      "license": "public domain",
+      "artist": "Christoph Bernhard Francke",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+    }
+  },
+  {
+    "id": "person_w066",
+    "name": "ジョン・ロック",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9353",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9353",
+      "commonsFile": "JohnLocke.png",
+      "license": "public domain",
+      "artist": "Godfrey Kneller",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:JohnLocke.png"
+    }
+  },
+  {
+    "id": "person_w067",
+    "name": "ジャン＝ジャック・ルソー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q6527",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q6527",
+      "commonsFile": "Jean-Jacques Rousseau (painted portrait).jpg",
+      "license": "public domain",
+      "artist": "Maurice Quentin de La Tour",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau_(painted_portrait).jpg"
+    }
+  },
+  {
+    "id": "person_w068",
+    "name": "イマヌエル・カント",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9312",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9312",
+      "commonsFile": "Immanuel Kant - Gemaelde 2.jpg",
+      "license": "public domain",
+      "artist": "Becker",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_2.jpg"
+    }
+  },
+  {
+    "id": "person_w069",
+    "name": "ゲオルク・ヘーゲル",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w070",
+    "name": "アルトゥル・ショーペンハウアー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q38193",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q38193",
+      "commonsFile": "Arthur Schopenhauer by J Schäfer, 1859b.jpg",
+      "license": "public domain",
+      "artist": "Johann Schäfer",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+    }
+  },
+  {
+    "id": "person_w071",
+    "name": "フリードリッヒ・ニーチェ",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w072",
+    "name": "アダム・スミス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9381",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9381",
+      "commonsFile": "AdamSmith.jpg",
+      "license": "public domain",
+      "artist": "Etching created by Cadell and Davies (1811), John Horsburgh (1828) or R.C. Bell (1872).",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:AdamSmith.jpg"
+    }
+  },
+  {
+    "id": "person_w073",
+    "name": "ジョン・メイナード・ケインズ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9317",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9317",
+      "commonsFile": "Keynes 1933.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Keynes_1933.jpg"
+    }
+  },
+  {
+    "id": "person_w074",
+    "name": "ルイ・パスツール",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q529",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q529",
+      "commonsFile": "Louis Pasteur (1822 - 1895), microbiologist and chemist Wellcome V0026980.jpg",
+      "license": "public domain",
+      "artist": "Paul Nadar",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur_(1822_-_1895),_microbiologist_and_chemist_Wellcome_V0026980.jpg"
+    }
+  },
+  {
+    "id": "person_w075",
+    "name": "ロベルト・コッホ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q37193",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q37193",
+      "commonsFile": "Robert Koch.jpg",
+      "license": "public domain",
+      "artist": "Wilhelm Fechner",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Robert_Koch.jpg"
+    }
+  },
+  {
+    "id": "person_w076",
+    "name": "エドワード・ジェンナー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q40852",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q40852",
+      "commonsFile": "Edward Jenner statue.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "Cjc13",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Edward_Jenner_statue.jpg"
+    }
+  },
+  {
+    "id": "person_w077",
+    "name": "グレゴール・ヨハン・メンデル",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q37970",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q37970",
+      "commonsFile": "Gregor Mendel with cross.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_with_cross.jpg"
+    }
+  },
+  {
+    "id": "person_w078",
+    "name": "マックス・プランク",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9021",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9021",
+      "commonsFile": "Max Planck.png",
+      "license": "cc by-sa 3.0",
+      "artist": "Courtesy of the Clendening History of Medicine Library, University of Kansas Medical Center.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Max_Planck.png"
+    }
+  },
+  {
+    "id": "person_w079",
+    "name": "ニールス・ボーア",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7085",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7085",
+      "commonsFile": "Niels Bohr.jpg",
+      "license": "public domain",
+      "artist": "The American Institute of Physics credits the photo [1] to AB Lagrelius &amp; Westphal, which is the Swedish company used by the Nobel Foundation for most photos of its book series Les Prix Nobel.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg"
+    }
+  },
+  {
+    "id": "person_w080",
+    "name": "ヴェルナー・ハイゼンベルク",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q40904",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q40904",
+      "commonsFile": "Bundesarchiv Bild183-R57262, Werner Heisenberg.jpg",
+      "license": "cc by-sa 3.0 de",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild183-R57262,_Werner_Heisenberg.jpg"
+    }
+  },
+  {
+    "id": "person_w081",
+    "name": "パブロ・ピカソ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5593",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5593",
+      "commonsFile": "Pablo picasso 1.jpg",
+      "license": "public domain",
+      "artist": "Argentina. Revista Vea y Lea",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg"
+    }
+  },
+  {
+    "id": "person_w082",
+    "name": "クロード・モネ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q296",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q296",
+      "commonsFile": "Claude Monet 1899 Nadar crop.jpg",
+      "license": "public domain",
+      "artist": "Nadar",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
+    }
+  },
+  {
+    "id": "person_w083",
+    "name": "フィンセント・ファン・ゴッホ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5582",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5582",
+      "commonsFile": "Self-portrait - Vincent van Gogh.jpg",
+      "license": "cc by-sa 4.0",
+      "artist": "Vincent van Gogh",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Self-portrait_-_Vincent_van_Gogh.jpg"
+    }
+  },
+  {
+    "id": "person_w084",
+    "name": "フリーダ・カーロ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5588",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5588",
+      "commonsFile": "Frida Kahlo, by Guillermo Kahlo (cropped).jpg",
+      "license": "public domain",
+      "artist": "Guillermo Kahlo",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w085",
+    "name": "ヨハン・ゼバスティアン・バッハ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1339",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1339",
+      "commonsFile": "Johann Sebastian Bach.png",
+      "license": "public domain",
+      "artist": "Elias Gottlob Haussmann",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.png"
+    }
+  },
+  {
+    "id": "person_w086",
+    "name": "フレデリック・ショパン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1268",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1268",
+      "commonsFile": "Chopin, by Wodzinska.JPG",
+      "license": "public domain",
+      "artist": "Maria Wodzińska",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Chopin,_by_Wodzinska.JPG"
+    }
+  },
+  {
+    "id": "person_w087",
+    "name": "リヒャルト・ワーグナー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1511",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1511",
+      "commonsFile": "RichardWagner.jpg",
+      "license": "public domain",
+      "artist": "Franz Hanfstaengl",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:RichardWagner.jpg"
+    }
+  },
+  {
+    "id": "person_w088",
+    "name": "チャールズ・ディケンズ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5686",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5686",
+      "commonsFile": "Dickens Gurney head.jpg",
+      "license": "public domain",
+      "artist": "Jeremiah Gurney",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg"
+    }
+  },
+  {
+    "id": "person_w089",
+    "name": "フョードル・ドストエフスキー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q991",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q991",
+      "commonsFile": "Vasily Perov - Портрет Ф.М.Достоевского - Google Art Project.jpg",
+      "license": "public domain",
+      "artist": "Vasily Perov",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+    }
+  },
+  {
+    "id": "person_w090",
+    "name": "レフ・トルストイ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7243",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7243",
+      "commonsFile": "L.N.Tolstoy Prokudin-Gorsky.jpg",
+      "license": "public domain",
+      "artist": "Sergei Prokudin-Gorskii",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:L.N.Tolstoy_Prokudin-Gorsky.jpg"
+    }
+  },
+  {
+    "id": "person_w091",
+    "name": "アントン・チェーホフ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5685",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5685",
+      "commonsFile": "Anton Chekhov with bow-tie sepia image.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Anton_Chekhov_with_bow-tie_sepia_image.jpg"
+    }
+  },
+  {
+    "id": "person_w092",
+    "name": "ジェーン・オースティン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q36322",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q36322",
+      "commonsFile": "CassandraAusten-JaneAusten(c.1810) hires.jpg",
+      "license": "public domain",
+      "artist": "Cassandra Austen",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
+    }
+  },
+  {
+    "id": "person_w093",
+    "name": "マーク・トウェイン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7245",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7245",
+      "commonsFile": "MarkTwain.LOC.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:MarkTwain.LOC.jpg"
+    }
+  },
+  {
+    "id": "person_w094",
+    "name": "アーネスト・ヘミングウェイ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q23434",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q23434",
+      "commonsFile": "ErnestHemingway.jpg",
+      "license": "public domain",
+      "artist": "Lloyd Arnold",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg"
+    }
+  },
+  {
+    "id": "person_w095",
+    "name": "アガサ・クリスティ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q35064",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q35064",
+      "commonsFile": "Agatha Christie in Nederland (detectiveschrijfster), bij aankomst op Schiphol me, Bestanddeelnr 916-8898 (cropped).jpg",
+      "license": "cc0",
+      "artist": "Joop van Bilsen for Anefo",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w096",
+    "name": "フランツ・カフカ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q905",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q905",
+      "commonsFile": "Kafka1906 cropped.jpg",
+      "license": "public domain",
+      "artist": "Atelier Jacobi: Sigismund Jacobi (1860–1935)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Kafka1906_cropped.jpg"
+    }
+  },
+  {
+    "id": "person_w097",
+    "name": "ガブリエル・ガルシア・マルケス",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w098",
+    "name": "ジョージ・オーウェル",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q3335",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q3335",
+      "commonsFile": "George Orwell, c. 1940 (41928180381).jpg",
+      "license": "cc by 2.0",
+      "artist": "Cassowary Colorizations",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:George_Orwell,_c._1940_(41928180381).jpg"
+    }
+  },
+  {
+    "id": "person_w099",
+    "name": "チャールズ・チャップリン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q882",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q882",
+      "commonsFile": "Charlie Chaplin portrait Getty 1739411952.jpg",
+      "license": "public domain",
+      "artist": "Strauss-Peyton Studio",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
+    }
+  },
+  {
+    "id": "person_w100",
+    "name": "ウォルト・ディズニー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q8704",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q8704",
+      "commonsFile": "Walt Disney 1946.JPG",
+      "license": "public domain",
+      "artist": "Boy Scouts of America",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946.JPG"
+    }
+  },
+  {
+    "id": "person_w101",
+    "name": "スティーブ・ジョブズ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q19837",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q19837",
+      "commonsFile": "Steve Jobs Headshot 2010-CROP2.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "MetalGearLiquid, based on File:Steve_Jobs_Headshot_2010-CROP.jpg made by Matt Yohe",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP2.jpg"
+    }
+  },
+  {
+    "id": "person_w102",
+    "name": "ビル・ゲイツ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5284",
+    "matchedOn": [
+      "birth"
+    ],
+    "credit": {
+      "wikidataQid": "Q5284",
+      "commonsFile": "Bill Gates at the European Commission - 2025 - P067383-987995 (cropped).jpg",
+      "license": "cc by 4.0",
+      "artist": "Bogdan Hoyaux / European Union",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w103",
+    "name": "ライト兄弟",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q35820",
+    "matchedOn": [
+      "name_exact_top1"
+    ],
+    "credit": {
+      "wikidataQid": "Q35820",
+      "commonsFile": "Orville Wright.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Orville_Wright.jpg"
+    }
+  },
+  {
+    "id": "person_w104",
+    "name": "アンリ・デュナン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q12091",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q12091",
+      "commonsFile": "Jean Henri Dunant.jpg",
+      "license": "public domain",
+      "artist": "Time Life Pictures",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jean_Henri_Dunant.jpg"
+    }
+  },
+  {
+    "id": "person_w105",
+    "name": "ヴィルヘルム・レントゲン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q35149",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q35149",
+      "commonsFile": "Wilhelm Conrad Röntgen (1888-1900), 88374 p.jpg",
+      "license": "public domain",
+      "artist": "Erwin Hanfstaengl",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Wilhelm_Conrad_R%C3%B6ntgen_(1888-1900),_88374_p.jpg"
+    }
+  },
+  {
+    "id": "person_w106",
+    "name": "ピョートル・チャイコフスキー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7315",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7315",
+      "commonsFile": "Porträt des Komponisten Pjotr I. Tschaikowski (1840-1893).jpg",
+      "license": "public domain",
+      "artist": "Nikolai Kuznetsov",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_des_Komponisten_Pjotr_I._Tschaikowski_(1840-1893).jpg"
+    }
+  },
+  {
+    "id": "person_w107",
+    "name": "グスタフ・マーラー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7304",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7304",
+      "commonsFile": "Gustav-Mahler-Kohut.jpg",
+      "license": "public domain",
+      "artist": "Leonard Berlin / E. Bieber",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Gustav-Mahler-Kohut.jpg"
+    }
+  },
+  {
+    "id": "person_w108",
+    "name": "ルイ・アームストロング",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1779",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1779",
+      "commonsFile": "Louis Armstrong, by Harry Warnecke and Gus Schoenbaechler, 1947.jpg",
+      "license": "cc0",
+      "artist": "Harry Warnecke, Gus Schoenbaechler",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong,_by_Harry_Warnecke_and_Gus_Schoenbaechler,_1947.jpg"
+    }
+  },
+  {
+    "id": "person_w109",
+    "name": "エルヴィス・プレスリー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q303",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q303",
+      "commonsFile": "Elvis Presley 1973 RCA Records and Tapes publicity 2 - cropped.png",
+      "license": "public domain",
+      "artist": "RCA Records",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_1973_RCA_Records_and_Tapes_publicity_2_-_cropped.png"
+    }
+  },
+  {
+    "id": "person_w110",
+    "name": "マイケル・ジャクソン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q2831",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q2831",
+      "commonsFile": "Michael Jackson 1983 (3x4 cropped) (contrast).jpg",
+      "license": "public domain",
+      "artist": "Matthew Rolston; Distributed by Epic Records",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
+    }
+  },
+  {
+    "id": "person_w111",
+    "name": "ジョン・レノン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1203",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1203",
+      "commonsFile": "John Lennon portrait.jpg",
+      "license": "cc by-sa 3.0",
+      "artist": "Jack Mitchell",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:John_Lennon_portrait.jpg"
+    }
+  },
+  {
+    "id": "person_w112",
+    "name": "セオドア・ルーズベルト",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q33866",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q33866",
+      "commonsFile": "Theodore Roosevelt by the Pach Bros.jpg",
+      "license": "public domain",
+      "artist": "Adam Cuerden",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg"
+    }
+  },
+  {
+    "id": "person_w113",
+    "name": "ウッドロウ・ウィルソン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q34296",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q34296",
+      "commonsFile": "Thomas Woodrow Wilson, Harris & Ewing bw photo portrait, 1919.jpg",
+      "license": "public domain",
+      "artist": "Harris &amp; Ewing",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Woodrow_Wilson,_Harris_%26_Ewing_bw_photo_portrait,_1919.jpg"
+    }
+  },
+  {
+    "id": "person_w114",
+    "name": "ハリー・S・トルーマン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q11613",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q11613",
+      "commonsFile": "TRUMAN 58-766-06 (cropped).jpg",
+      "license": "public domain",
+      "artist": "National Archives and Records Administration. Office of Presidential Libraries. Harry S. Truman Library.",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:TRUMAN_58-766-06_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w115",
+    "name": "ドワイト・アイゼンハワー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9916",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9916",
+      "commonsFile": "Dwight D. Eisenhower, official photo portrait, May 29, 1959.jpg",
+      "license": "public domain",
+      "artist": "White House",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg"
+    }
+  },
+  {
+    "id": "person_w116",
+    "name": "ロナルド・レーガン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9960",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9960",
+      "commonsFile": "Ronald Reagan 1981 presidential portrait.jpg",
+      "license": "public domain",
+      "artist": "Michael Evans",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ronald_Reagan_1981_presidential_portrait.jpg"
+    }
+  },
+  {
+    "id": "person_w117",
+    "name": "バラク・オバマ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q76",
+    "matchedOn": [
+      "birth"
+    ],
+    "credit": {
+      "wikidataQid": "Q76",
+      "commonsFile": "President Barack Obama.jpg",
+      "license": "public domain",
+      "artist": "Official White House Photo by Pete Souza",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
+    }
+  },
+  {
+    "id": "person_w118",
+    "name": "ミハイル・ゴルバチョフ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q30487",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q30487",
+      "commonsFile": "GorbachevMS.jpg",
+      "license": "cc by-sa 4.0",
+      "artist": "Leo Medvedev/Лев Леонидович Медведев",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:GorbachevMS.jpg"
+    }
+  },
+  {
+    "id": "person_w119",
+    "name": "ウラジーミル・レーニン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1394",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1394",
+      "commonsFile": "Vladimir Lenin in July 1920 by Pavel Zhukov.jpg",
+      "license": "public domain",
+      "artist": "Pavel Zhukov",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg"
+    }
+  },
+  {
+    "id": "person_w120",
+    "name": "フィデル・カストロ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q11256",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q11256",
+      "commonsFile": "Fidel Castro 1950s.jpg",
+      "license": "public domain",
+      "artist": "Unknown (Mondadori Publishers)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro_1950s.jpg"
+    }
+  },
+  {
+    "id": "person_w121",
+    "name": "チェ・ゲバラ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5809",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5809",
+      "commonsFile": "Che Guevara - ca. 1945.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Che_Guevara_-_ca._1945.jpg"
+    }
+  },
+  {
+    "id": "person_w122",
+    "name": "インディラ・ガンジー",
+    "status": "NO_YEAR_MATCH",
+    "detail": null
+  },
+  {
+    "id": "person_w123",
+    "name": "マーガレット・サッチャー",
+    "status": "LICENSE_REJECTED",
+    "detail": "copyrighted free use",
+    "qid": "Q7416",
+    "matchedOn": [
+      "birth",
+      "death"
+    ]
+  },
+  {
+    "id": "person_w124",
+    "name": "アンゲラ・メルケル",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q567",
+    "matchedOn": [
+      "birth"
+    ],
+    "credit": {
+      "wikidataQid": "Q567",
+      "commonsFile": "Angela Merkel Juli 2010 - 3zu4.jpg",
+      "license": "cc by-sa 3.0 de",
+      "artist": "Armin Linnartz",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_Juli_2010_-_3zu4.jpg"
+    }
+  },
+  {
+    "id": "person_w125",
+    "name": "シャルル・ド・ゴール",
+    "status": "LICENSE_REJECTED",
+    "detail": "no restrictions",
+    "qid": "Q2042",
+    "matchedOn": [
+      "birth",
+      "death"
+    ]
+  },
+  {
+    "id": "person_w126",
+    "name": "マルコム・X",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q43303",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q43303",
+      "commonsFile": "Malcolm X in 1964.jpg",
+      "license": "public domain",
+      "artist": "Marion S. Trikosko",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Malcolm_X_in_1964.jpg"
+    }
+  },
+  {
+    "id": "person_w127",
+    "name": "ローザ・パークス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q41921",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q41921",
+      "commonsFile": "Rosa Parks being fingerprinted by Deputy Sheriff D.H. Lackey after being arrested on February 22, 1956, during the Montgomery bus boycott.jpg",
+      "license": "public domain",
+      "artist": "Gene Herrick for the Associated Press; restored by Adam Cuerden",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_being_fingerprinted_by_Deputy_Sheriff_D.H._Lackey_after_being_arrested_on_February_22,_1956,_during_the_Montgomery_bus_boycott.jpg"
+    }
+  },
+  {
+    "id": "person_w128",
+    "name": "アウン・サン・スー・チー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q36740",
+    "matchedOn": [
+      "birth"
+    ],
+    "credit": {
+      "wikidataQid": "Q36740",
+      "commonsFile": "Aung San Suu Kyi at the Enthronement of Naruhito (1).jpg",
+      "license": "cc by 4.0",
+      "artist": "Cabinet Public Relations Office of the Cabinet Secretariat",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_at_the_Enthronement_of_Naruhito_(1).jpg"
+    }
+  },
+  {
+    "id": "person_w129",
+    "name": "シモーヌ・ド・ボーヴォワール",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7197",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7197",
+      "commonsFile": "Simone de Beauvoir2.png",
+      "license": "cc by-sa 3.0",
+      "artist": "Moshe Milner",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png"
+    }
+  },
+  {
+    "id": "person_w130",
+    "name": "スーザン・B・アンソニー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q192245",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q192245",
+      "commonsFile": "SB Anthony from WoC.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_WoC.jpg"
+    }
+  },
+  {
+    "id": "person_w131",
+    "name": "コラソン・アキノ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1480",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1480",
+      "commonsFile": "Corazon Aquino 1986.jpg",
+      "license": "public domain",
+      "artist": "Airman Gerald B. Johnson",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Corazon_Aquino_1986.jpg"
+    }
+  },
+  {
+    "id": "person_w132",
+    "name": "デスモンド・ツツ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q43033",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q43033",
+      "commonsFile": "Archbishop-Tutu-medium.jpg",
+      "license": "public domain",
+      "artist": "Benny Gool",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg"
+    }
+  },
+  {
+    "id": "person_w133",
+    "name": "ダグ・ハマーショルド",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q1267",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q1267",
+      "commonsFile": "Dag Hammarskjöld.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dag_Hammarskj%C3%B6ld.jpg"
+    }
+  },
+  {
+    "id": "person_w134",
+    "name": "コンラート・アデナウアー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q2492",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q2492",
+      "commonsFile": "Bundesarchiv B 145 Bild-F078072-0004, Konrad Adenauer.jpg",
+      "license": "cc by-sa 3.0 de",
+      "artist": "Katherine Young (1906–1993)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-F078072-0004,_Konrad_Adenauer.jpg"
+    }
+  },
+  {
+    "id": "person_w135",
+    "name": "シモーヌ・ヴェイユ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q298180",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q298180",
+      "commonsFile": "Simone Veil, gymnase Japy 2008 02 27 n3 ret.jpg",
+      "license": "cc by 3.0",
+      "artist": "Marie-Lan Nguyen (User:Jastrow)",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Simone_Veil,_gymnase_Japy_2008_02_27_n3_ret.jpg"
+    }
+  },
+  {
+    "id": "person_w136",
+    "name": "アルベルト・シュバイツァー",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q49325",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q49325",
+      "commonsFile": "Émile Schneider, Portrait d'Albert Schweitzer.jpg",
+      "license": "public domain",
+      "artist": "Émile Schneider",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Schneider,_Portrait_d%27Albert_Schweitzer.jpg"
+    }
+  },
+  {
+    "id": "person_w137",
+    "name": "エリノア・ルーズベルト",
+    "status": "NO_CANDIDATE",
+    "detail": null
+  },
+  {
+    "id": "person_w138",
+    "name": "イサドラ・ダンカン",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q483512",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q483512",
+      "commonsFile": "1923. duncan (cropped).jpg",
+      "license": "public domain",
+      "artist": "",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:1923._duncan_(cropped).jpg"
+    }
+  },
+  {
+    "id": "person_w139",
+    "name": "ルイ・ブライユ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q93182",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q93182",
+      "commonsFile": "Louis Braille.jpg",
+      "license": "public domain",
+      "artist": "Unknown authorUnknown author",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Louis_Braille.jpg"
+    }
+  },
+  {
+    "id": "person_w140",
+    "name": "ジャクソン・ポロック",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q37571",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q37571",
+      "commonsFile": "Jackson Pollock by Hans Namuth.jpg",
+      "license": "public domain",
+      "artist": "Hans Namuth",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jackson_Pollock_by_Hans_Namuth.jpg"
+    }
+  },
+  {
+    "id": "person_w141",
+    "name": "アンディ・ウォーホル",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q5603",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q5603",
+      "commonsFile": "Andy Warhol at the Jewish Museum (by Bernard Gotfryd) – LOC.jpg",
+      "license": "public domain",
+      "artist": "Bernard Gotfryd",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_at_the_Jewish_Museum_(by_Bernard_Gotfryd)_%E2%80%93_LOC.jpg"
+    }
+  },
+  {
+    "id": "person_w142",
+    "name": "チャールズ・バベッジ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q46633",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q46633",
+      "commonsFile": "CharlesBabbage.jpg",
+      "license": "public domain",
+      "artist": "Thomas Dewell Scott",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:CharlesBabbage.jpg"
+    }
+  },
+  {
+    "id": "person_w143",
+    "name": "エイダ・ラブレス",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q7259",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q7259",
+      "commonsFile": "Ada Lovelace.jpg",
+      "license": "public domain",
+      "artist": "Margaret Sarah Carpenter",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace.jpg"
+    }
+  },
+  {
+    "id": "person_w144",
+    "name": "アレクサンダー・グラハム・ベル",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q34286",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q34286",
+      "commonsFile": "Alexander Graham Bell.jpg",
+      "license": "public domain",
+      "artist": "Moffett Studio",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell.jpg"
+    }
+  },
+  {
+    "id": "person_w145",
+    "name": "グリエルモ・マルコーニ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q36488",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q36488",
+      "commonsFile": "Guglielmo Marconi.jpg",
+      "license": "public domain",
+      "artist": "Pach Brothers",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
+    }
+  },
+  {
+    "id": "person_w146",
+    "name": "ニコラ・テスラ",
+    "status": "OK",
+    "detail": null,
+    "qid": "Q9036",
+    "matchedOn": [
+      "birth",
+      "death"
+    ],
+    "credit": {
+      "wikidataQid": "Q9036",
+      "commonsFile": "Tesla circa 1890.jpeg",
+      "license": "public domain",
+      "artist": "Napoleon Sarony",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+    }
+  },
+  {
+    "id": "person_w147",
+    "name": "ジョン・フォン・ノイマン",
+    "status": "LICENSE_REJECTED",
+    "detail": "attribution",
+    "qid": "Q17455",
+    "matchedOn": [
+      "birth",
+      "death"
+    ]
+  }
+]
