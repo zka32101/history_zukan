@@ -48,13 +48,18 @@ CC-BY / CC-BY-SA画像（クレジット表記義務あり）は、方針書6章
 
 ## 5. 次の担当者へ（未着手の作業）
 
-1. **データモデル拡張**（方針書6章）: `HistoryPerson`に`imageAttribution`, `imageSourceUrl`, `imageLicense`を追加し、`build_runner`で`.g.dart`再生成
+1. ~~**データモデル拡張**（方針書6章）: `HistoryPerson`に`imageAttribution`, `imageSourceUrl`, `imageLicense`を追加~~
+   ✅ 対応済み（`lib/models/history_person.dart` / `history_person.g.dart`）。
+   本実行環境にはFlutter/Dart SDKが無く`build_runner`が使えなかったため、`.g.dart`は**手動編集**した。
+   次に触る人は必ず `flutter pub run build_runner build --delete-conflicting-outputs` を実行し、
+   生成結果が手動編集と一致すること（差分が出ないこと）を確認してから `flutter analyze` すること。
+   `CLAUDE.md` のデータモデル節にも追記済み。
 2. **Firebase Storageへのアップロード**（方針書5-4・7章手順4）: `assets/images/person_photos_staging/`の276枚をFirebase Storageにアップロードし、配信用URLを発行。**Wikimediaへの直接ホットリンクはしない**方針を維持
-3. **管理者専用スクリプトでFirestore反映**（方針書7章手順5）: クライアント直接書き込みは`SECURITY_AUDIT.md`の経緯により禁止。Firebase Admin SDK方式のスクリプトを`scripts/`に用意すること
+3. **管理者専用スクリプトでFirestore反映**（方針書7章手順5）: クライアント直接書き込みは`SECURITY_AUDIT.md`の経緯により禁止。Firebase Admin SDK方式のスクリプトを`scripts/`に用意し、`docs/person_image_credits.csv`から`imageUrl`（Storage配信URL）/`imageAttribution`/`imageSourceUrl`/`imageLicense`を機械的に反映すること
 4. **未取得24人の個別対応**: NO_CANDIDATE/LICENSE_REJECTED等の一覧は本書2章・CSV参照。個別にCommons手動検索するか、プレースホルダー維持のままにするか判断
 5. **残り約256件の内容面サンプル拡大確認**（本書3章）
-6. **イベント500件分の画像取得**: 今回は人物のみ。イベント画像は方針書の対象だが、件数が想定(40件)の12倍以上に増えているため、着手前にスコープを再度確認すること
-7. **表示側のクレジット表記UI**（方針書7章手順7）: 人物詳細画面への出典表示の要否判断
+6. **イベント500件分の画像取得**: 今回は人物のみ。イベント画像は方針書の対象だが、件数が想定(40件)の12倍以上に増えているため、着手前にスコープを再度確認すること。`HistoryEvent`へのクレジットフィールド追加は、着手が決まってから同様の手順で行う（今回は`HistoryPerson`のみ対応）
+7. **表示側のクレジット表記UI**（方針書7章手順7）: 人物詳細画面への出典表示の要否判断。データモデル側の準備は完了しているため、UI実装のみで対応可能
 
 ## 6. ファイル一覧
 
