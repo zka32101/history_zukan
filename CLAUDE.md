@@ -81,6 +81,7 @@ lib/
 - Standard fields: id, name, birthYear, deathYear, description, country
 - `hasAiChat` — D1 Phase 2 flag
 - `personality, famousQuotes, lifeTimeline` — AI personality data
+- `imageAttribution, imageSourceUrl, imageLicense` — Wikipedia/Wikimedia Commons由来の画像クレジット情報（任意）。CC-BY/CC-BY-SA画像の表示義務対応。詳細は `HANDOVER_WIKI_IMAGE_SOURCING.md` 参照
 
 ### CausalChain (causalChains collection)
 

@@ -40,6 +40,9 @@ HistoryPerson _$HistoryPersonFromJson(Map<String, dynamic> json) =>
         (k, e) => MapEntry(k, e as String),
       ),
       extendedDescription: json['extendedDescription'] as String?,
+      imageAttribution: json['imageAttribution'] as String?,
+      imageSourceUrl: json['imageSourceUrl'] as String?,
+      imageLicense: json['imageLicense'] as String?,
     );
 
 Map<String, dynamic> _$HistoryPersonToJson(HistoryPerson instance) =>
@@ -64,4 +67,7 @@ Map<String, dynamic> _$HistoryPersonToJson(HistoryPerson instance) =>
       'whatTheyDid': instance.whatTheyDid,
       'keyRelationships': instance.keyRelationships,
       'extendedDescription': instance.extendedDescription,
+      'imageAttribution': instance.imageAttribution,
+      'imageSourceUrl': instance.imageSourceUrl,
+      'imageLicense': instance.imageLicense,
     };

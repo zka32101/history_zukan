@@ -31,6 +31,12 @@ class HistoryPerson {
   final Map<String, String>? keyRelationships; // 「誰と関わった？」{人名: 関係の説明}
   final String? extendedDescription;           // 詳しく知りたい人向け追記
 
+  // Wikipedia/Wikimedia Commons由来の画像クレジット情報
+  // (HANDOVER_WIKI_IMAGE_SOURCING.md / HANDOVER_PERSON_IMAGES_SOURCED.md 参照)
+  final String? imageAttribution; // 画面表示用のクレジット文字列（例: 作者名）
+  final String? imageSourceUrl;   // 出典のWikimedia Commonsファイルページ等のURL
+  final String? imageLicense;     // ライセンス種別（例: "public domain", "CC-BY-SA-4.0"）
+
   HistoryPerson({
     required this.id,
     required this.name,
@@ -52,6 +58,9 @@ class HistoryPerson {
     this.whatTheyDid,
     this.keyRelationships,
     this.extendedDescription,
+    this.imageAttribution,
+    this.imageSourceUrl,
+    this.imageLicense,
   });
 
   factory HistoryPerson.fromJson(Map<String, dynamic> json) =>
@@ -86,6 +95,9 @@ class HistoryPerson {
     String? whatTheyDid,
     Map<String, String>? keyRelationships,
     String? extendedDescription,
+    String? imageAttribution,
+    String? imageSourceUrl,
+    String? imageLicense,
   }) {
     return HistoryPerson(
       id: id ?? this.id,
@@ -108,6 +120,9 @@ class HistoryPerson {
       whatTheyDid: whatTheyDid ?? this.whatTheyDid,
       keyRelationships: keyRelationships ?? this.keyRelationships,
       extendedDescription: extendedDescription ?? this.extendedDescription,
+      imageAttribution: imageAttribution ?? this.imageAttribution,
+      imageSourceUrl: imageSourceUrl ?? this.imageSourceUrl,
+      imageLicense: imageLicense ?? this.imageLicense,
     );
   }
 
