@@ -9,6 +9,17 @@ history_zukan 人物300人の肖像画をWikidata(P18)経由で機械的に取�
  3. 採用候補にP18(画像)があれば、Wikimedia CommonsのファイルのライセンスをAPIで確認
  4. PD/CC0/CC-BY/CC-BY-SAのみ採用してダウンロード→JPEG変換→保存
  5. 全件の結果(採用/スキップ理由)をレポートJSONに記録
+
+使い方:
+  1. 入力JSON（[{"id":..., "name":..., "birthYear":..., "deathYear":...}, ...]）を
+     lib/utils/seed_data.dart の HistoryPerson 一覧から生成し、
+     docs/person_image_sourcing_input.json として保存する
+     （このファイル自体はワンオフの中間生成物なのでコミット不要）
+  2. $ HZ_WIKIMEDIA_CONTACT="you@example.com" python wikidata_person_sourcing.py
+     （Wikimedia API利用規約により連絡先入りUser-Agentが必須。
+     個人のメールアドレス等をこのファイルに直接コミットしないこと）
+  3. 入出力パスは HZ_PEOPLE_JSON / HZ_OUT_DIR / HZ_REPORT_PATH / HZ_CREDITS_PATH の
+     環境変数で上書き可能（デフォルトはこのリポジトリ内の docs/, assets/ 配下）
 """
 import json
 import re
@@ -20,13 +31,26 @@ from PIL import Image
 
 WD_API = "https://www.wikidata.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
-HEADERS = {"User-Agent": "history-zukan-image-sourcing/1.0 (educational app; contact: funvestment1@gmail.com)"}
+
+# Wikimedia's API etiquette requires a real, reachable contact in the
+# User-Agent (so they can reach the operator about abuse/load issues).
+# NOTE: don't hardcode a real address here — this script lives in a public
+# repo. Set HZ_WIKIMEDIA_CONTACT in your own environment before running it.
+_CONTACT = os.environ.get("HZ_WIKIMEDIA_CONTACT", "set-HZ_WIKIMEDIA_CONTACT-env-var")
+HEADERS = {"User-Agent": f"history-zukan-image-sourcing/1.0 (educational app; contact: {_CONTACT})"}
 ALLOWED_LICENSE_KEYWORDS = ["cc0", "cc-by-sa", "cc-by", "public domain", "pd-"]
 
-PEOPLE_JSON = "C:/Users/zka32/AppData/Local/Temp/claude/H---------apps/e85277eb-3196-4ff0-8e84-39b9826af1d0/scratchpad/hz_people.json"
-OUT_DIR = "H:/マイドライブ/apps/history_zukan/assets/images/person_photos_staging"
-REPORT_PATH = "C:/Users/zka32/AppData/Local/Temp/claude/H---------apps/e85277eb-3196-4ff0-8e84-39b9826af1d0/scratchpad/hz_sourcing_report.json"
-CREDITS_PATH = "C:/Users/zka32/AppData/Local/Temp/claude/H---------apps/e85277eb-3196-4ff0-8e84-39b9826af1d0/scratchpad/hz_person_image_credits.json"
+# Paths default to locations inside this repo (relative to this script) so
+# the script is portable across machines/contributors. Override via env
+# vars for local/one-off runs instead of hardcoding an absolute path here
+# (a previous version hardcoded a specific contributor's Windows user
+# folder and a Claude session temp path, which leaked local environment
+# details into a public repo for no functional reason).
+_REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+PEOPLE_JSON = os.environ.get("HZ_PEOPLE_JSON", os.path.join(_REPO_ROOT, "docs", "person_image_sourcing_input.json"))
+OUT_DIR = os.environ.get("HZ_OUT_DIR", os.path.join(_REPO_ROOT, "assets", "images", "person_photos_staging"))
+REPORT_PATH = os.environ.get("HZ_REPORT_PATH", os.path.join(_REPO_ROOT, "docs", "person_image_sourcing_report.json"))
+CREDITS_PATH = os.environ.get("HZ_CREDITS_PATH", os.path.join(_REPO_ROOT, "docs", "person_image_credits.json"))
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -221,7 +245,11 @@ def process_person(person):
         result["detail"] = str(e)
         return result
 
-    out_path = f"{OUT_DIR}/{person['id']}.jpg"
+    # person['id'] is currently always our own trusted seed-data slug, but
+    # guard the filename anyway (defense in depth) in case this script is
+    # ever pointed at a less-trusted input list.
+    safe_id = re.sub(r"[^A-Za-z0-9_-]", "_", person["id"])
+    out_path = os.path.join(OUT_DIR, f"{safe_id}.jpg")
     with open(out_path, "wb") as f:
         f.write(jpeg_bytes)
 

@@ -12,11 +12,22 @@ on:
 
 jobs:
   claude:
+    # This job runs with contents:write / pull-requests:write / issues:write.
+    # The repo is public, so anyone can comment "@claude ..." on an issue or
+    # PR — restrict who can actually trigger the privileged job to people
+    # GitHub already recognizes as repo owner/member/collaborator, so a
+    # random external commenter can't get write-scoped CI to act on their
+    # behalf. (author_association reflects the *comment/issue* author, not
+    # the PR branch owner, so this doesn't block reviewing external PRs —
+    # only comment-triggering needs an authorized author.)
     if: |
-      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
-      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
-      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude'))
+      contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'), github.event.comment.author_association || github.event.review.author_association || github.event.issue.author_association) &&
+      (
+        (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
+        (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+        (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
+        (github.event_name == 'issues' && contains(github.event.issue.body, '@claude'))
+      )
     runs-on: ubuntu-latest
     permissions:
       contents: write
