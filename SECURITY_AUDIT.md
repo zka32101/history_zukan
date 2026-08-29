@@ -111,4 +111,30 @@ Dart/Flutter のツールチェインが使えない環境で大規模な機能�
 
 ---
 
+## 8. フォローアップ監査（2026-08-29）
+
+初回監査（1〜7章、PR #1）以降にマージされた変更（画像調達フロー移行: PR #3〜#5）を対象に、追加のセキュリティ調査を実施した。対象は主に新規追加された `.github/workflows/claude.yml`、`scripts/image_sourcing/wikidata_person_sourcing.py`、および新規データファイル（`docs/person_image_credits.csv` 等）。firestore.rules・Cloud Functions・Android署名設定など初回監査で修正した箇所に変更はなく、退行は確認されなかった。
+
+### 8-1. 修正済み
+
+| # | 箇所 | 問題 | 対応 |
+|---|---|---|---|
+| 1 | `.github/workflows/claude.yml` | `issue_comment` / `pull_request_review_comment` / `pull_request_review` / `issues` イベントで `@claude` を含むコメントをトリガーに、`contents: write` / `pull-requests: write` / `issues: write` を持つジョブが実行される設定だった。本リポジトリは **Public** であり、コメントは誰でも投稿できるため、無関係な第三者が書き込み権限付きCIジョブを起動できる状態だった | コメント・Issue・レビューの投稿者の `author_association` が `OWNER` / `MEMBER` / `COLLABORATOR` のいずれかである場合のみジョブが起動するよう `if:` 条件を追加 |
+| 2 | `scripts/image_sourcing/wikidata_person_sourcing.py` | Wikimedia API向けUser-Agentに開発者個人と思われるメールアドレスが平文でハードコードされ、Publicリポジトリにコミットされていた。加えて、開発者のWindowsユーザー名（`C:/Users/zka32/...`）やClaude Codeのセッション一時フォルダのパス（`H:/マイドライブ/...`）もハードコードされており、特定作業環境の情報が不必要に公開されていた | メールアドレスは環境変数 `HZ_WIKIMEDIA_CONTACT` 経由に変更（デフォルトはプレースホルダー、実アドレスはコミットしない運用に変更）。パス類もリポジトリ相対パス＋環境変数上書き方式に変更し、特定端末の情報を排除。あわせて出力ファイル名に対する簡易サニタイズ（パストラバーサル対策の多重防御）も追加 |
+
+### 8-2. 確認のみ（対応不要と判断）
+
+- `scripts/image_sourcing/wikidata_person_sourcing.py` が `requests.get(info["url"], ...)` でファイルを取得する箇所は、URLがWikimedia Commons自身のAPI応答（`commons.wikimedia.org` への問い合わせ結果）から得られたものであり、外部入力で任意ホストへ誘導できる構造ではないため、SSRFとしては扱わない
+- `docs/person_image_credits.csv` / `docs/person_image_sourcing_report.json` にAPIキー・トークン等の機微情報は含まれていないことを確認
+- `assets/images/person_photos_staging/` の画像はアプリコードから一切参照されておらず（`未配線`のまま）、現時点でクライアントの攻撃面には影響しない
+
+### 8-3. 引き続き未対応（要判断）
+
+`HANDOVER_PERSON_IMAGES_SOURCED.md` に記載の以下は今回のフォローアップ監査でもスコープ外・未着手のまま:
+- Firebase Storageへのアップロード、管理者専用スクリプトでのFirestore反映
+- 未取得24人の個別対応、残り約256件の内容面サンプル拡大確認
+- イベント500件分の画像取得（スコープ再確認要）
+
+---
+
 _このレポートは Claude Code によるコード監査結果です。_
