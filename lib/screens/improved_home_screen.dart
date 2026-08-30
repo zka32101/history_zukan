@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:history_zukan/constants/app_constants.dart';
 import 'package:history_zukan/widgets/index.dart';
 import 'package:history_zukan/providers/theme_provider.dart';
 import 'card_detail_screen.dart';
@@ -10,6 +11,9 @@ import 'nearby_history_screen.dart';
 import 'bedtime_screen.dart';
 import 'person_detail_screen.dart';
 import 'person_list_screen.dart';
+import 'help_screen.dart';
+import 'whats_new_screen.dart';
+import 'feedback_screen.dart';
 
 class ImprovedHomeScreen extends ConsumerStatefulWidget {
   const ImprovedHomeScreen({super.key});
@@ -20,6 +24,25 @@ class ImprovedHomeScreen extends ConsumerStatefulWidget {
 
 class _ImprovedHomeScreenState extends ConsumerState<ImprovedHomeScreen> {
   int _selectedIndex = 3; // デフォルトは図鑑
+
+  @override
+  void initState() {
+    super.initState();
+    // ビルド中のNavigator操作を避けるため、初回フレーム後に判定する
+    WidgetsBinding.instance.addPostFrameCallback((_) => _maybeShowWhatsNew());
+  }
+
+  Future<void> _maybeShowWhatsNew() async {
+    final lastSeen = AppMetaStorage.lastSeenVersion;
+    if (lastSeen == AppConstants.appVersion) return;
+
+    if (!mounted) return;
+    await Navigator.of(context).push(
+      MaterialPageRoute(builder: (context) => const WhatsNewScreen()),
+    );
+
+    await AppMetaStorage.markVersionSeen(AppConstants.appVersion);
+  }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -67,6 +90,49 @@ class _ImprovedHomeScreenState extends ConsumerState<ImprovedHomeScreen> {
                   },
                   tooltip: isDarkMode ? 'ライトモードに切り替え' : 'ダークモードに切り替え',
                 ),
+              ),
+              IconButton(
+                icon: const Icon(Icons.help_outline),
+                tooltip: '使い方ガイド',
+                onPressed: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const HelpScreen()),
+                  );
+                },
+              ),
+              PopupMenuButton<String>(
+                icon: const Icon(Icons.more_vert),
+                tooltip: 'その他',
+                onSelected: (value) {
+                  switch (value) {
+                    case 'whats_new':
+                      Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => const WhatsNewScreen()),
+                      );
+                      break;
+                    case 'feedback':
+                      Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => const FeedbackScreen()),
+                      );
+                      break;
+                  }
+                },
+                itemBuilder: (context) => const [
+                  PopupMenuItem(
+                    value: 'whats_new',
+                    child: ListTile(
+                      leading: Icon(Icons.campaign_outlined),
+                      title: Text('アップデート情報'),
+                    ),
+                  ),
+                  PopupMenuItem(
+                    value: 'feedback',
+                    child: ListTile(
+                      leading: Icon(Icons.feedback_outlined),
+                      title: Text('ご意見・不具合報告'),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),

@@ -68,6 +68,26 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // ========== feedback コレクション ==========
+    // ご意見・不具合報告：誰でも投稿できる書き込み専用の投書箱。
+    // 他人の投稿を読まれたくない（メールアドレスを含み得る）ため read は禁止し、
+    // 想定外のフィールド追加・巨大な本文・不正なカテゴリでの投稿も拒否する。
+    match /feedback/{document=**} {
+      allow create: if request.resource.data.keys().hasOnly(
+                        ['category', 'message', 'contactEmail', 'appVersion', 'platform', 'createdAt']
+                      ) &&
+                      request.resource.data.category is string &&
+                      request.resource.data.category in ['bug', 'request', 'other'] &&
+                      request.resource.data.message is string &&
+                      request.resource.data.message.size() > 0 &&
+                      request.resource.data.message.size() <= 1000 &&
+                      (!('contactEmail' in request.resource.data) ||
+                        (request.resource.data.contactEmail is string &&
+                         request.resource.data.contactEmail.size() <= 320)) &&
+                      request.resource.data.createdAt == request.time;
+      allow read, update, delete: if false;
+    }
+
     // ========== causalChains 内の details サブコレクション ==========
     // 親チェーンの isPremium を見て判定する（$(chainId) で変数展開する必要がある）
     match /causalChains/{chainId}/details/{document=**} {

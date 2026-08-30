@@ -5,6 +5,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'firebase_options.dart';
 import 'models/index.dart';
 import 'screens/improved_home_screen.dart';
+import 'screens/whats_new_screen.dart';
 import 'services/notification_service.dart';
 import 'utils/hive_storage.dart';
 import 'providers/theme_provider.dart';
@@ -34,6 +35,7 @@ void main() async {
   Hive.registerAdapter(PersonRelationPuzzleRecordAdapter());
 
   await Hive.openBox<String>(ChatHistoryStorage.boxName);
+  await Hive.openBox<String>(AppMetaStorage.boxName);
   await Hive.openBox<GachaRecord>('gacha_records');
   await Hive.openBox<LoginStreak>('login_streaks');
   await Hive.openBox<PersonRelationPuzzleRecord>('puzzle_records');
