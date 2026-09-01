@@ -31,3 +31,15 @@ scripts/.env
 # Android release signing (DO NOT COMMIT)
 key.properties
 
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+venv_*/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
