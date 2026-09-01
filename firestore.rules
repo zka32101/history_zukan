@@ -74,7 +74,7 @@ service cloud.firestore {
     // 想定外のフィールド追加・巨大な本文・不正なカテゴリでの投稿も拒否する。
     match /feedback/{document=**} {
       allow create: if request.resource.data.keys().hasOnly(
-                        ['category', 'message', 'contactEmail', 'appVersion', 'platform', 'createdAt']
+                        ['category', 'message', 'contactEmail', 'appVersion', 'platform']
                       ) &&
                       request.resource.data.category is string &&
                       request.resource.data.category in ['bug', 'request', 'other'] &&
@@ -83,8 +83,7 @@ service cloud.firestore {
                       request.resource.data.message.size() <= 1000 &&
                       (!('contactEmail' in request.resource.data) ||
                         (request.resource.data.contactEmail is string &&
-                         request.resource.data.contactEmail.size() <= 320)) &&
-                      request.resource.data.createdAt == request.time;
+                         request.resource.data.contactEmail.size() <= 320));
       allow read, update, delete: if false;
     }
 
