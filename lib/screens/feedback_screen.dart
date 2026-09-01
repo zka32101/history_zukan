@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:history_zukan/constants/app_constants.dart';
 import 'package:history_zukan/widgets/gradient_app_bar.dart';
@@ -77,7 +78,6 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
         if (email.isNotEmpty) 'contactEmail': email,
         'appVersion': AppConstants.appVersion,
         'platform': defaultTargetPlatform.name,
-        'createdAt': FieldValue.serverTimestamp(),
       });
 
       if (!mounted) return;
