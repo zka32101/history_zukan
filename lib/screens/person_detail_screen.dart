@@ -29,6 +29,9 @@ class PersonDetailScreen extends ConsumerWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
+                // 画像クレジット表示
+                if (person.imageAttribution != null || person.imageLicense != null)
+                  _buildImageCredit(context, person),
                 if (person.whatTheyDid != null)
                   _buildWhatTheyDid(context, person.whatTheyDid!),
                 _buildBasicInfo(context, person),
@@ -102,6 +105,77 @@ class PersonDetailScreen extends ConsumerWidget {
                 child: Text(
                   years,
                   style: const TextStyle(color: Colors.white70, fontSize: 13),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildImageCredit(BuildContext context, HistoryPerson person) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      child: Container(
+        padding: const EdgeInsets.all(12),
+        decoration: BoxDecoration(
+          color: Colors.grey.shade50,
+          borderRadius: BorderRadius.circular(8),
+          border: Border.all(color: Colors.grey.shade300),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(Icons.image, size: 16, color: Colors.grey.shade600),
+                const SizedBox(width: 6),
+                Text(
+                  '画像情報',
+                  style: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey.shade700,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 6),
+            if (person.imageAttribution != null)
+              Text(
+                '© ${person.imageAttribution}',
+                style: TextStyle(
+                  fontSize: 11,
+                  color: Colors.grey.shade700,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+            if (person.imageLicense != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 4),
+                child: Text(
+                  'ライセンス: ${person.imageLicense}',
+                  style: TextStyle(
+                    fontSize: 11,
+                    color: Colors.grey.shade600,
+                  ),
+                ),
+              ),
+            if (person.imageSourceUrl != null)
+              Padding(
+                padding: const EdgeInsets.only(top: 6),
+                child: GestureDetector(
+                  onTap: () {
+                    // TODO: Open image source URL in browser
+                  },
+                  child: Text(
+                    '出典を見る →',
+                    style: TextStyle(
+                      fontSize: 10,
+                      color: Colors.blue.shade600,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
                 ),
               ),
           ],
